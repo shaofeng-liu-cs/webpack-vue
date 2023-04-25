@@ -1,0 +1,116 @@
+.project-bulletin-box{
+	padding: 20px 0 10px 30px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+	background-color: #fff;
+	.bulletin-item{
+		flex:1;
+		display: flex;
+		flex-direction: column;
+		padding-right: 30px;
+		position: relative;
+		overflow: hidden;
+		.header-item-jiantou {
+			position: absolute;
+			right: 0;
+			width: 30px;
+			display: inline-block;
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+			color: #4377EB;
+			height: 70px;
+			line-height: 70px;
+			top:0;
+		}
+	
+		.header-item-jiantou.dan {
+			color: #DCE6FF;
+		}
+		.bulletin-header{
+			display: flex;
+			width: 100%;
+			height: 70px;
+			align-items: center;
+			.header-item-box{
+				flex: 1;
+				height: 56px;
+				background: #4377EB;
+				box-shadow: 0px 3px 10px 0px #C6D2F3;
+				border-radius: 4px;
+				border: 2px solid;
+				display: flex;
+				border-image: linear-gradient(187deg, rgba(233, 238, 255, 1), rgba(151, 151, 151, 0)) 2 2;
+				&.itbox1 .bl-item-name {
+					color: #fff;
+				}
+				&.itbox2 {
+					background: #ABC5FF;
+					box-shadow: 0px 2px 5px 0px rgba(198, 210, 243, 0.5);
+					border-image: linear-gradient(187deg, rgba(233, 238, 255, 1), rgba(151, 151, 151, 0)) 2 2;
+				}
+				&.itbox3 {
+					background: linear-gradient(90deg, #F9FAFC 0%, #DBE5FF 100%);
+					box-shadow: 0px 2px 5px 0px rgba(198, 210, 243, 0.5);
+					border-image: linear-gradient(187deg, rgba(233, 238, 255, 1), rgba(151, 151, 151, 0)) 2 2;
+				}
+			}
+			.bl-item-name {
+				flex: 1;
+				align-items: center;
+				display: flex;
+				padding-left: 15px;
+				font-size: 16px;
+				font-weight: 500;
+				color: #333;
+				overflow: hidden;
+			}
+			.bl-item-img {
+				margin-right: 30px;
+				margin-left: 10px;
+				position: relative;
+				top: -8px;
+			}
+			
+		}
+
+		.bulletin-content{
+			flex:1;
+			// overflow-y: auto;
+			overflow: hidden;
+			height: 100%;
+			background: #F4F7FB;
+			border-radius: 5px;
+			border: 1px solid #EAF0F7;
+			padding: 12px;
+			.content-res-li {
+				border-radius: 2px;
+				border: 1px solid #4377EB;
+				padding: 12px 10px;
+				margin-bottom: 10px;
+				cursor: pointer;
+				&:hover{
+					opacity: .7;
+				}
+				.res-li-icon {
+					// background: #D8D8D8;
+					border-radius: 3px;
+					min-height: 100px;
+					img {
+						width: 100%;
+					}
+				}
+				.res-li-name {
+					font-weight: 400;
+					color: #333333;
+					font-size: 14px;
+					text-align: center;
+					margin-top: 8px;
+
+				}
+			}
+		}
+	}
+}

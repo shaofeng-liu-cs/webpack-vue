@@ -1,0 +1,124 @@
+.edesign-v9-designer-home-content {
+    background-image: linear-gradient(180deg, #eaf6ff 0%, #f9fafc 100%);
+}
+.edesign-v9-designer-home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* 说明列表样式 */
+.edesign-v9-designer-home > .readme-list {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    max-width: 1360px;
+}
+
+.edesign-v9-designer-home > .readme-list > div {
+    /* width: 300px; */
+    flex:1;
+    height: 440px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 10px 10px;
+    position: relative;
+    background: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.edesign-v9-designer-home > .readme-list > div:hover {
+    box-shadow: 0 2px 4px 0 #eff2f7;
+}
+.edesign-v9-designer-home > .readme-list > div.flex-empty-div {
+    height: 0;
+    padding: 0;
+    border: none;
+    margin: 0;
+    width: 310px;
+}
+.edesign-v9-designer-home > .readme-list > div > div.readme_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 118px;
+    flex-shrink: 0;
+}
+.edesign-v9-designer-home > .readme-list > div:nth-child(1) > .readme_img > img {
+    width: 100px;
+    height: 117px;
+}
+.edesign-v9-designer-home > .readme-list > div:nth-child(2) > .readme_img > img {
+    width: 115px;
+    height: 117px;
+}
+.edesign-v9-designer-home > .readme-list > div:nth-child(3) > .readme_img > img {
+    width: 100px;
+    height: 117px;
+}
+.edesign-v9-designer-home > .readme-list > div:nth-child(4) > .readme_img > img {
+    width: 100px;
+    height: 117px;
+}
+.edesign-v9-designer-home > .readme-list > div > h1 {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3b4859;
+    line-height: 25px;
+    margin: 20px 0 10px 0;
+}
+
+.edesign-v9-designer-home > .readme-list > div > h3 {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #3b4859;
+    line-height: 16px;
+    white-space: normal;
+    margin: 12px 0;
+}
+.edesign-v9-designer-home > .readme-list > div > ol {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-top: 10px;
+}
+.edesign-v9-designer-home > .readme-list > div > ol > li {
+    width: 100%;
+    height: auto;
+    color: #333333;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    white-space: normal;
+    color: #999999;
+    line-height: 16px;
+}
+/* 说明列表样式结束 */
+
+@media screen and (max-width: 1340px) {
+    .edesign-v9-designer-home > .readme-list > div {
+        width: 275px;
+        height: 460px;
+        margin: 5px;
+    }
+}

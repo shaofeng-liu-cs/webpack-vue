@@ -1,0 +1,493 @@
+#edn-theme-body .theme-bg {
+	background-color: var(--theme-card-main-color);
+}
+
+#edn-theme-body .theme-btn-bg {
+	background-color: var(--theme-btn-bg-color);
+}
+#edn-theme-body .text-btn-bg {
+	color: var(--theme-btn-bg-color);
+}
+
+
+#edn-theme-body .theme-text-val {
+	color: var(--theme-text-main-color);
+}
+#edn-theme-body .theme-text-red {
+	color: var(--theme-red-color);
+}
+
+#edn-theme-body .activeClass{
+	background-color: var(--theme-btn-bg-color);
+	color: var(--theme-btn-text-color);
+}
+#edn-theme-body{
+	background-color: var(--theme-html-back-color);
+	color: var(--theme-text-main-color);
+}
+#edn-theme-body .text-red{
+	color:var(--theme-red-color);
+}
+
+#edn-theme-body .cursor-hover{
+	cursor: pointer;
+}
+#edn-theme-body .cursor-hover:hover{
+	opacity: .7;
+}
+/* 项目主card盒子的样式 */
+#edn-theme-body .edn-page-box {
+	padding:20px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: var(--theme-html-back-color);
+	color: var(--theme-text-main-color);
+	position: relative;
+}
+#edn-theme-body .sys-card-box{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow: hidden;
+	padding: 0 20px 20px;
+	background: var(--theme-card-main-color);
+	border-radius: 6px;
+}
+#edn-theme-body  .box-head-title{
+	display: flex;
+	align-items: center;
+	height: 60px;
+	min-height: 60px;
+	align-items: center;
+	justify-content: space-between;
+}
+#edn-theme-body  .box-head-title .left-title{
+	font-weight: 500;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	color:var(--theme-text-main-color);
+}
+#edn-theme-body  .box-head-title .left-title:before{
+	content: '';
+	width: 4px;
+	height: 18px;
+	background: var(--theme-card-title-before-color);
+	display: inline-block;
+	margin-right: 6px;
+}
+#edn-theme-body .sys-card-box .box-content{
+	flex: 1;
+	overflow: hidden;
+	padding:0 10px;
+}
+#edn-theme-body .edn-page-box.hasOptions  .sys-card-box,#edn-theme-body .sys-card-box.hasOptions{
+	padding-bottom: 60px;
+}
+/* 盒子下方按钮条统一样式 */
+#edn-theme-body .bottom-options {
+	position: absolute;
+	width: calc(100% - 20px);
+	height: 60px;
+	background: var(--theme-bottom-options-back);
+	box-shadow: var(--theme-bottom-options-shadow);
+	border-radius: 5px;
+	bottom: 14px;
+	left: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+	z-index: 2;
+}
+
+/* card盒子下面的二级头部 */
+#edn-theme-body .child-head-title {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+#edn-theme-body .child-head-title:after{
+	content: '';
+	height: 1px;
+	background: var(--theme-child-head-back-color);
+	flex:1;
+}
+#edn-theme-body .child-head-title .head-title{
+	font-weight: 500;
+	color: var(--theme-text-main-color);
+	font-size: 13px;
+	padding-right: 12px;
+	position: relative;
+	z-index: 2;
+}
+
+/* 描述项 */
+#edn-theme-body .info-list-box{
+	display: flex;
+	flex-wrap: wrap;
+}
+#edn-theme-body .info-item{
+	display: inline-block;
+	overflow: hidden;
+	font-weight: 500;
+	font-size: 13px;
+	margin-right: 60px;
+	margin-bottom: 20px;
+	min-width: 110px;
+}
+#edn-theme-body .info-item:last-child{
+	margin-right: 0;
+}
+/* 描述项标题颜色 */
+#edn-theme-body .info-it-title{
+	color:var(--theme-info-title-color);
+}
+/* 描述项文本颜色 */
+#edn-theme-body .info-it-val{
+	color:var(--theme-info-desc-color);
+}
+
+/* 无内容盒子 */
+#edn-theme-body .nodata-box{
+	height: auto;
+}
+#edn-theme-body .nodata-box .el-empty__description{
+	line-height: initial;
+	margin-top: 15px;
+}
+
+
+
+
+/* #edn-theme-body .search input:hover{
+	box-shadow:0px 0px 5px var(--theme-btn-bg-color);
+} */
+
+/* 一些经常用的样式 */
+#edn-theme-body .m-l-small {
+	margin-left: 5px;
+}
+#edn-theme-body .m-l{
+	margin-left: 10px;
+}
+#edn-theme-body .m-l-lg{
+	margin-left: 20px;
+}
+#edn-theme-body .m-l-mlg{
+	margin-left: 40px;
+}
+#edn-theme-body .m-r-small {
+	margin-right: 5px;
+}
+#edn-theme-body .m-r{
+	margin-right: 10px;
+}
+#edn-theme-body .m-r-lg{
+	margin-right: 20px;
+}
+#edn-theme-body .m-r-mlg{
+	margin-right: 40px;
+}
+#edn-theme-body .m-t-small {
+	margin-top: 5px;
+}
+#edn-theme-body .m-t{
+	margin-top: 10px;
+}
+#edn-theme-body .m-t-lg{
+	margin-top: 20px;
+}
+#edn-theme-body .m-t-mlg{
+	margin-top: 40px;
+}
+#edn-theme-body .m-b-small {
+	margin-bottom: 5px;
+}
+#edn-theme-body .m-b{
+	margin-bottom: 10px;
+}
+#edn-theme-body .m-b-lg{
+	margin-bottom: 20px;
+}
+#edn-theme-body .m-b-mlg{
+	margin-bottom: 40px;
+}
+#edn-theme-body .flex-align-center{
+	display: flex;
+	align-items: center;
+}
+#edn-theme-body .all100{
+	width: 100%;
+	height: 100%;
+}
+#edn-theme-body .flex-column{
+	display: flex;
+	flex-direction: column;
+}
+#edn-theme-body .flex-row-center{
+	display: flex;
+	justify-content: center;
+}
+#edn-theme-body .flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#edn-theme-body .flex1{
+	flex:1;
+}
+#edn-theme-body .overflow-hidden{
+	overflow: hidden;
+}
+#edn-theme-body .text-left{
+	text-align: left;
+}
+#edn-theme-body .text-center{
+	text-align: center;
+}
+#edn-theme-body .text-right{
+	text-align: right;
+}
+
+/* eleui 覆盖样式 */
+/* input框样式覆盖 */
+#edn-theme-body .el-input__inner,#edn-theme-body .el-textarea__inner{
+	background: var(--theme-input-back-color);
+	border-color: var(--theme-input-border-color);
+	color:var(--theme-text-main-color);
+}
+#edn-theme-body .el-input__inner:focus{
+	border-color: var(--theme-btn-bg-color);
+}
+
+#edn-theme-body .el-input.is-disabled .el-input__inner{
+	background: transparent;
+	border: 0;
+	color:var(--theme-text-main-color);
+	padding:0;
+}
+#edn-theme-body .el-input.is-disabled.hasClss{
+	background: var(--theme-input-dis-back-color);
+	border-color: var(--theme-input-dis-border-color);
+	padding:0 10px;
+}
+#edn-theme-body .el-input.is-disabled.hasClss input{
+	color: var(--theme-input-dis-text-color) !important;
+}
+#edn-theme-body .el-select .is-disabled .el-input__suffix{
+	display: none;
+}
+/* raido框文本颜色 */
+#edn-theme-body .el-radio__label,#edn-theme-body .el-checkbox__label{
+	color:var(--theme-text-main-color);
+}
+#edn-theme-body .el-radio-button__orig-radio:disabled:checked+.el-radio-button__inner{
+	background-color: #bbbbbb;
+	color: #fff;
+}
+/* 颜色选择框背景色 */
+#edn-theme-body .el-color-dropdown{
+	background: var(--theme-card-two-color);
+	border-color: var(--theme-card-two-color);
+}
+/* 表单样式覆盖 */
+#edn-theme-body .el-form {
+	font-size: 12px;
+}
+#edn-theme-body .el-form *{
+	font-size: 12px;
+	font-weight: inherit;
+}
+#edn-theme-body .el-form-item__label {
+	color: var(--theme-text-main-color);
+	font-size: 12px;
+	padding:0;
+}
+#edn-theme-body .el-radio-group {
+	display: inline-flex;
+}
+#edn-theme-body .el-radio-group label{
+	margin-bottom: 0;
+}
+/* 进度条覆盖 */
+#edn-theme-body .el-progress-bar__inner ,#edn-theme-body .el-progress__text{
+	color: var(--theme-card-title-before-color) !important;
+}
+#edn-theme-body .el-progress-bar__outer {
+	background-color: var(--theme-progress-bar—outer-back) !important;
+}
+
+/* 询问弹框覆盖 */
+#edn-theme-body .el-message-box {
+	background-color: var(--theme-card-main-color);
+	border-color: var(--theme-card-main-color);
+}
+#edn-theme-body .el-message-box__title ,#edn-theme-body .el-message-box__message{
+	color: var(--theme-text-main-color);
+}
+/* 按钮主题色 */
+#edn-theme-body .el-button--default {
+	background-color: transparent;
+	color: var(--theme-text-main-color);
+}
+#edn-theme-body .el-button--default2 {
+	/* 用于白色背景下的按钮 */
+	background-color: transparent;
+	border-color: var(--theme-btn-defa2-border-color);
+	color: var(--theme-btn-defa2-text-color);
+}
+#edn-theme-body .el-button--primary {
+	background-color: var(--theme-btn-bg-color);
+	border-color: var(--theme-btn-bg-color);
+	color: var(--theme-btn-text-color);
+}
+#edn-theme-body .el-button--mini2 {
+	height: 26px;
+	padding:0 10px;
+	font-size: 12px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2px;
+}
+/* #edn-theme-body .el-button--mini2>span{
+	display: flex;
+	align-items: center;
+	width: max-content;
+} */
+#edn-theme-body .el-button--mini2 i{
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+/* 抽屉样式覆盖 */
+#edn-theme-body .el-drawer {
+	background-color: var(--theme-card-main-color);
+}
+
+#edn-theme-body .el-drawer__header {
+	color: var(--theme-text-main-color);
+	border-bottom: 1px solid var(--theme-card-three-border-color);
+}
+/* tooltip覆盖 */
+#edn-theme-body .el-tooltip__popper.is-light{
+	color:var(--theme-tooltip-color);
+}
+/* 分页组件覆盖 */
+#edn-theme-body .el-pagination .el-pagination__total{
+	color: var(--theme-text-main-color);
+}
+#edn-theme-body .el-pagination .btn-prev[disabled],#edn-theme-body .el-pagination .btn-next[disabled]{
+	background-color: #e6e6e6;
+}
+#edn-theme-body .el-pagination .btn-prev[disabled] i,#edn-theme-body .el-pagination .btn-next[disabled] i{
+	color:#868686;
+}
+#edn-theme-body .el-pagination.is-background .el-pager li:not(.disabled).active{
+	background-color: var(--theme-btn-bg-color);
+	border-color:var(--theme-btn-bg-color);
+}
+/* 手风琴样式覆盖 */
+#edn-theme-body .el-collapse {
+	border: 0;
+}
+#edn-theme-body .el-collapse-item {
+	margin-top: 23px;
+	border: 1px solid var(--theme-collapse-head-back);
+	border-radius: 6px;
+}
+#edn-theme-body .el-collapse-item.is-active {
+	border: 1px solid var(--theme-btn-bg-color);
+}
+#edn-theme-body .el-collapse-item__wrap,#edn-theme-body .el-collapse-item__header,#edn-theme-body .el-collapse-item__content {
+	background-color: var(--theme-collapse-head-back) !important;
+}
+#edn-theme-body .el-collapse-item__arrow {
+	color: var(--theme-text-main-color);
+}
+#edn-theme-body .el-collapse-item__wrap {
+	border: 0;
+	border-radius: 0 0 6px 6px;
+}
+
+#edn-theme-body .el-collapse-item__content {
+	padding: 0 15px 15px;
+}
+
+#edn-theme-body .el-collapse-item__header {
+	height: 59px;
+	line-height: auto;
+	border: 0;
+	border-radius: 6px;
+}
+/* tab页样式覆盖 */
+#edn-theme-body .el-tabs__active-bar{
+	background-color: var(--theme-btn-bg-color);
+}
+#edn-theme-body .el-tabs__item.is-active{
+	color: var(--theme-btn-bg-color);
+}
+#edn-theme-body .el-tabs__item{
+	color: var(--theme-text-main-color);
+}
+/* 表格样式覆盖 */
+#edn-theme-body .el-table--border{
+	/* height: 100%; */
+	display: flex;
+	flex-direction: column;
+}
+#edn-theme-body .el-table tr{
+	background-color: var(--theme-table-td-back-color);
+}
+#edn-theme-body .el-table__expand-icon i{
+	color: var(--theme-text-main-color);
+}
+#edn-theme-body .el-table--border .el-table__body-wrapper{
+	flex:1;
+}
+#edn-theme-body .el-table--border,#edn-theme-body .el-table--border th,#edn-theme-body .el-table td,#edn-theme-body .el-table td.el-table__cell,
+#edn-theme-body .el-table th.el-table__cell.is-leaf{
+	border-color: var(--theme-table-border-color);
+}
+#edn-theme-body .el-table--border,#edn-theme-body .el-table__body-wrapper,#edn-theme-body .el-table__body-wrapper,#edn-theme-body .el-table td {
+	background-color: var(--theme-table-td-back-color);
+}
+#edn-theme-body .el-table--border th {
+	background-color: var(--theme-table-th-back-color);
+	color: var(--theme-text-main-color);
+}
+#edn-theme-body .el-table td {
+	color: var(--theme-text-main-color);
+}
+#edn-theme-body .el-table .selected-row,
+#edn-theme-body .el-table .selected-row td,
+#edn-theme-body .el-table .current-row td,
+#edn-theme-body .el-table .hover-row,#edn-theme-body .el-table .hover-row td.el-table__cell {
+	background-color: var(--theme-table-select-back-color);
+}
+#edn-theme-body .el-table--group::after,
+#edn-theme-body .el-table::before,
+#edn-theme-body .el-table--border::after,
+#edn-theme-body .el-table__fixed::before,
+#edn-theme-body .el-table__fixed-right::before {
+	background-color: var(--theme-table-border-color);
+}
+#edn-theme-body .el-table .selected-row .el-input__inner{
+	border:1px solid var(--theme-table-select-input-border-color);
+}
+#edn-theme-body .el-table .el-table__fixed-right-patch{
+	background-color: var(--theme-table-th-back-color);
+}
+#edn-theme-body .el-table--border th.el-table__cell,
+#edn-theme-body .el-table__fixed-right-patch{
+	border-color: var(--theme-table-border-color);
+}
+
+
+/* 去除input=nuber时后面的箭头 */
+#edn-theme-body input::-webkit-outer-spin-button,
+#edn-theme-body input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}

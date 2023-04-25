@@ -1,0 +1,162 @@
+.lld-design-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    > div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        border: 1px solid #e0e0e0;
+        background: #ffffff;
+        resize: vertical;
+        > h3 {
+            width: 100%;
+            height: 40px;
+            font-weight: 700;
+            font-size: 15px;
+            color: #333333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+            padding-left: 20px;
+            margin: 0;
+            border-bottom: 1px solid #e0e0e0;
+            background: #f4f6f9;
+            border-left: 5px solid $theme-color;
+            position: relative;
+            > span {
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+        }
+        > div {
+            width: 100%;
+            background: #fff;
+            overflow: auto;
+        }
+        &:nth-child(1) {
+            height: 40px;
+            overflow: hidden;
+            flex-shrink: 0;
+            > div.content {
+                height: calc(100% - 40px);
+            }
+        }
+        &:nth-child(1).routeShow {
+            height: 342px;
+            > h3 {
+                > span {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        &:nth-child(2) {
+            flex-grow: 1;
+            min-height: 300px;
+            margin-top: 10px;
+            > div.content {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                > div {
+                    &:nth-child(1) {
+                        width: 400px;
+                        height: 100%;
+                    }
+                    &:nth-child(2) {
+                        width: calc(100% - 400px);
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        &:nth-child(3) {
+            height: 242px;
+            margin-top: 10px;
+            > div {
+                height: 200px;
+            }
+        }
+    }
+}
+
+
+// 收放按钮
+.icon-flag {
+    width: 36px;
+    height: 36px;
+    // margin-top: 100px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: calc(50% - 18px);
+    top: -30px;
+    transition: top 0.6s;
+    .left-sprint {
+        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        opacity: 0.8;
+        background-color: white;
+        color: #47e;
+        height: 36px;
+        width: 36px;
+        padding-right: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .icon_ospdoubleleft:before,
+    .icon_ospdoubleright:before {
+        transform:rotate(90deg);
+    }
+    .left-sprint:hover {
+        background-color: #47e;
+        color: white;
+    }
+    .right-sprint {
+        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        opacity: 0.8;
+        background-color: white;
+        color: #47e;
+        height: 30px;
+        width: 36px;
+        display: flex;
+        align-items: center;
+        padding-left: 9px;
+        // justify-content: center;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .right-sprint:hover {
+        background-color: #47e;
+        color: white;
+    }
+}
+// .routeShow {
+// 	resize: vertical;
+// 	overflow-x: scroll !important;
+// }
+
+// ::-webkit-scrollbar {
+// 	width: inherit;
+// 	height: 20px;
+// 	background-color: #b4a2a2;
+
+// }

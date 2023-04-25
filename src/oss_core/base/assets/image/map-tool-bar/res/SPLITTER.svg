@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>SPLITTER</title>
+    <desc>Created with Sketch.</desc>
+    <g id="SPLITTER" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ODB">
+            <g id="round-bg" opacity="0" fill="#FFFFFF" stroke="#666666">
+                <rect id="Rectangle" x="0" y="0" width="64" height="64" rx="5"></rect>
+            </g>
+            <text id="Splitter" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="10.205" y="21">Splitter</tspan>
+            </text>
+            <path d="M34.5384615,32 L34.5384615,37.0769231 L32.8461538,37.0769231 L32.846,40.461 L41.3076923,40.4615385 L41.307,45.538 L43,45.5384615 L43,50.6153846 L37.9230769,50.6153846 L37.9230769,45.5384615 L39.615,45.538 L39.615,42.153 L32.846,42.153 L32.846,45.538 L34.5384615,45.5384615 L34.5384615,50.6153846 L29.4615385,50.6153846 L29.4615385,45.5384615 L31.153,45.538 L31.153,42.153 L24.384,42.153 L24.384,45.538 L26.0769231,45.5384615 L26.0769231,50.6153846 L21,50.6153846 L21,45.5384615 L22.692,45.538 L22.6923077,40.4615385 L31.153,40.461 L31.1538462,37.0769231 L29.4615385,37.0769231 L29.4615385,32 L34.5384615,32 Z" id="形状结合备份-2" fill="#333333"></path>
+        </g>
+    </g>
+</svg>

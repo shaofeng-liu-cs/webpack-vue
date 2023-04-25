@@ -1,0 +1,53 @@
+.setting-style-box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+
+
+.opt-icon{
+	font-size: 16px;
+	cursor: pointer;
+}
+/deep/ .item-con-input {
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+	}
+
+	input[type="number"] {
+		-moz-appearance: textfield;
+		border: 0;
+	}
+}
+/deep/ .el-input__inner{
+	border:0;
+}
+.top-formula-box {
+	background-color:var(--theme-table-th-back-color);
+	color: var(--theme-text-main-color);
+	display: flex;
+	align-items: center;
+	height: 26px;
+	margin-bottom: 2px;
+	justify-content: space-between;
+	padding: 0 12px;
+	font-size: 13px;
+	.formula-span {
+		flex: 1;
+		display: flex;
+		justify-content: center;
+	}
+
+	.formula-btn {
+		text-decoration: underline;
+		cursor: pointer;
+		width: 50px;
+
+		i {
+			font-size: 12px;
+			margin-right: 4px;
+		}
+	}
+}

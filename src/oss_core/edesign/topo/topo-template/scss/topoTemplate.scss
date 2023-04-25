@@ -1,0 +1,28 @@
+.topo-content {
+	height: 100%;
+}
+.topo-template {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+}
+.tool-bar-wrapper {
+	height: 50px;
+	width: 100%;
+	padding-left: 5px;
+	background: #f8f8f8;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.graph-wrapper {
+	height: calc(100% - 50px);
+}
+.graph-wrapper-all {
+	height: 100%;
+}
+
+.context-menu {
+	z-index: 1000;
+}

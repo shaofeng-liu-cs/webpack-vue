@@ -1,0 +1,42 @@
+.summary-con{
+	display: flex;
+  width: 100%;
+  align-items: center;
+  height: 70px;
+  .img-con{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    position: relative;
+    img{
+      height: 54px;
+    }
+    .title{
+      margin-left: 10px;
+      padding-right: 40px;
+    }
+    &:after{
+      content: '';
+      width: 1px;
+      height: 30px;
+      background: var(--theme-child-head-back-color);
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin:auto;
+      position: absolute;
+    }
+  }
+  .process-con{
+    flex:1;
+    margin-right: 100px;
+    .text-con{
+      margin-top: 12px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .number-con{
+    padding: 0 40px;
+  }
+}

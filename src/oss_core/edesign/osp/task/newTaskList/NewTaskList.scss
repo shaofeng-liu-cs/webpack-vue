@@ -1,0 +1,210 @@
+.newTaskList{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	padding:10px;
+	.taskTypeInfo{
+		padding:15px;
+		width:200px;
+		margin-right: 10px;
+		background-color: #fff;
+		border:1px solid #E0E0E0;
+		.typeInfoItem{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 15px;
+			.itemLabel{
+				font-size: 14px;
+			}
+			.itemNum{
+				padding:5px 15px;
+				background: #D5E9FF;
+				border-radius: 15px;
+				border: 1px solid #EAF0F7;
+				text-align: center;
+				color: #333;
+				font-size: 14px;
+				font-weight: 400;
+			}
+		}
+	}
+	.detailBox{
+		padding: 10px;
+		flex: 1;
+		border: 1px solid #E0E0E0;
+		background-color: #fff;
+	}
+	.taskListBox{
+		padding:10px;
+		flex: 1;
+		border:1px solid #E0E0E0;
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		.taskFilterBox{
+			.rigthSearch {
+				display: flex;
+				.radioSelect{
+					display: flex;
+					width: max-content;
+					height: 30px;
+					align-items: center;
+					border-radius: 5px;
+					border:1px solid #E0E0E0;
+					margin-right: 15px;
+					overflow: hidden;
+					cursor: pointer;
+					.radioItem{
+						padding:0 10px;
+						height: 100%;
+						line-height: 30px;
+						&.active{
+							background-color: $theme-color;
+							color:#fff;
+						}
+						&:last-child{
+							border-left:1px solid #E0E0E0;
+						}
+					}
+				}
+			}
+			.advancedSearchContent{
+				display: flex;
+				border:1px solid #E0E0E0;
+				margin-top: 10px;
+				padding:10px;
+			}
+			.searchBox {
+				display: flex;
+				align-items: center;
+				margin-right: 15px;
+
+				.searchLabel {
+					margin-right: 5px;
+				}
+
+				.searchInput {
+					flex: 1;
+					display: flex;
+					align-items: center;
+
+					.ptInput {
+						width: 100%;
+						border: 1px solid #E0E0E0;
+					}
+
+				}
+			}
+			
+		}
+		.taskListTable{
+			margin-top: 10px;
+			flex:1;
+			overflow: hidden;
+		}
+		.paginationBox{
+			height: 30px;
+			padding-top: 10px;
+			text-align: right;
+		}
+		
+	}
+}
+.taskDetailBox{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	padding-bottom: 10px;
+	.headBtnlist{
+		margin-bottom: 10px;
+		.m-l{
+			margin-left: 10px;
+		}
+	}
+	.cardListBox{
+		flex:1;
+		overflow: auto;
+	}
+}
+
+.fromItemCard {
+	.cardHead {
+		background-color: rgba(244, 246, 249, 1);
+		display: flex;
+		justify-content: space-between;
+		padding: 0 10px;
+		align-items: center;
+		height: 30px;
+
+		.headTitle {
+			color: #333;
+			font-size: 14px;
+		}
+	}
+
+	.cardContent {
+		padding: 0 15px 15px 15px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+
+		.formItem {
+			flex: 1;
+			min-width: 30%;
+			margin-right: 15px;
+			margin-top: 10px;
+
+			&:nth-of-type(3n) {
+				margin-right: 0;
+			}
+
+			.itemlabel {
+				color: #AAAAAA;
+				display: flex;
+				align-items: center;
+				font-size: 14px;
+				&.requerid {
+					position: relative;
+					padding-left: 10px;
+
+					&:after {
+						content: '*';
+						color: red;
+						font-size: 14px;
+						position: absolute;
+						left: 0;
+					}
+				}
+			}
+
+			.itemInput {
+				margin-top: 5px;
+				position: relative;
+				color:#333;
+				font-size: 14px;
+			}
+		}
+
+		.fileItem {
+			display: inline-block;
+			padding: 5px;
+			background-color: #eee;
+			border-radius: 2px;
+			cursor: pointer;
+			margin-top: 10px;
+			margin-right: 10px;
+
+			.fileContent {
+				display: flex;
+				align-items: center;
+			}
+
+			.closeIcon {
+				margin-left: 10px;
+			}
+
+		}
+	}
+}

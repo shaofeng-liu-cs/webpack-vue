@@ -1,0 +1,80 @@
+.uk-content-box {
+  height: calc(100% - 46px);
+  display: flex;
+  flex-direction: column;
+  .upload-his-list {
+    flex: 1;
+    overflow-y: auto;
+    .his-card {
+        border: 1px solid var(--theme-table-border-color);
+        margin-top: 10px;
+    
+        .his-card-head {
+          background-color: var(--theme-table-th-back-color);
+          padding: 0 10px;
+          height: 30px;
+          border-bottom: 1px solid var(--theme-table-border-color);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+    
+        .opertat-list {
+          background-color: var(--theme-table-td-back-color);
+          padding: 10px;
+    
+          .ope-item {
+            display: flex;
+            justify-content: space-between;
+            height: 25px;
+            align-items: center;
+          }
+    
+          .opr-icon {
+            margin-left: 4px;
+          }
+        }
+      }
+  }
+}
+
+.file-loaction-body {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin-top: 20px;
+  align-items: center;
+  padding:0 50px;
+  .file-loaction {
+    padding: 0 10px;
+  }
+  .file-loaction-name {
+    flex:1;
+    height: 32px;
+    /deep/ input{
+      height: 100%;
+      border-radius: 4px 0 0 4px;
+    }
+  }
+  .upload-zip-btn{
+    border-radius: 0 4px 4px 0;
+  }
+}
+
+.upload-zip-input {
+  display: none;
+}
+.upload-zip-btn {
+  float: right;
+  margin-right: 17px;
+  border: 1px solid;
+  background-color: #4477ee;
+  color: #fff;
+  // height: 24px;
+  // font-size: 12px;
+  border-radius: 3px;
+  /deep/ .icon_osp {
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Pipeline</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pipeline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g id="round-bg" opacity="0" fill="#FFFFFF" stroke="#666666">
+                <rect id="Rectangle" x="0" y="0" width="64" height="64" rx="5"></rect>
+            </g>
+            <text font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="7.241" y="21">Pipeline</tspan>
+            </text>
+            <rect fill="#333333" x="21" y="38" width="22" height="1.46666667"></rect>
+        </g>
+    </g>
+</svg>

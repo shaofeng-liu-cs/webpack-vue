@@ -1,0 +1,32 @@
+.groups-container {
+	.groups-item {
+		margin-top: 25px;
+		display: flex;
+		flex-wrap: wrap;
+		.item-fit {
+			width: 25%;
+			min-width: 25%;
+			padding: 0 10px;
+			margin-bottom: 35px;
+			/deep/.el-form-item {
+				width: 100%;
+				padding-right: 20px;
+				.el-form-item__content{
+					&>.el-select,
+						&>.el-input {
+							width: 80%;
+						}
+				}
+				
+				.el-form-item__label {
+					font-size: 12px;
+					padding-bottom: 0;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					overflow: hidden;
+					color:var(--theme-info-title-color) !important;
+				}
+			}
+		}
+	}
+}

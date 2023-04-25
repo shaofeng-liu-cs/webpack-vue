@@ -1,0 +1,58 @@
+.design-container {
+  width: 100%;
+  height: 100%;
+  .content-body-box{
+    padding:0 10px;
+  }
+  .btns-item{
+    margin-left: 10px;
+  }
+  .progress-container {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+
+    >.upload-his-list {
+      flex: 1;
+      overflow-y: auto;
+
+      .his-card {
+        border: 1px solid var(--theme-table-border-color);
+        margin-top: 10px;
+
+        .his-card-head {
+          background-color: var(--theme-table-th-back-color);
+          padding: 0 10px;
+          height: 30px;
+          border-bottom: 1px solid var(--theme-table-border-color);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .opertat-list {
+          background-color: var(--theme-table-td-back-color);
+          padding: 10px;
+
+          .ope-item {
+            display: flex;
+            justify-content: space-between;
+            height: 25px;
+            align-items: center;
+          }
+
+          .opr-icon {
+            margin-left: 4px;
+          }
+        }
+      }
+    }
+  }
+  /deep/ .el-pagination{
+    margin-top: 20px;
+    text-align: right;
+  }
+}
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>SPDH</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.301941803   0 0 0 0 0.296602588   0 0 0 0 0.296602588  0 0 0 0.177638767 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="SPDH" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="椭圆形备份-7">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <circle stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" fill="blue" fill-rule="evenodd" cx="12" cy="12" r="11.5"></circle>
+        </g>
+        <path d="M8.76913897,9 C10.267563,9 11.4822756,10.2147127 11.4822756,11.7131367 C11.4822756,13.2115607 10.267563,14.4262733 8.76913897,14.4262733 C7.43932743,14.4262733 6.33296954,13.4695545 6.10081866,12.2068703 L4.192,12.2059193 L4.19243367,13.5492999 L2,11.5761096 L4.19243367,9.60291926 L4.192,11.2189193 L6.10081866,11.219403 C6.33296954,9.9567188 7.43932743,9 8.76913897,9 Z M15.1820075,9 C16.511819,9 17.6181769,9.9567188 17.8503278,11.219403 L20.2514953,11.2189464 L20.2520103,9.73994636 L22.444444,11.7131367 L20.2520103,13.686327 L20.2514953,12.2059464 L17.8503278,12.2068703 C17.6181769,13.4695545 16.511819,14.4262733 15.1820075,14.4262733 C13.6835835,14.4262733 12.4688708,13.2115607 12.4688708,11.7131367 C12.4688708,10.2147127 13.6835835,9 15.1820075,9 Z M8.76913897,9.77518191 C7.6988361,9.77518191 6.8311842,10.6428338 6.8311842,11.7131367 C6.8311842,12.7834395 7.6988361,13.6510914 8.76913897,13.6510914 C9.83944183,13.6510914 10.7070937,12.7834395 10.7070937,11.7131367 C10.7070937,10.6428338 9.83944183,9.77518191 8.76913897,9.77518191 Z M15.1820075,9.77518191 C14.1117046,9.77518191 13.2440527,10.6428338 13.2440527,11.7131367 C13.2440527,12.7834395 14.1117046,13.6510914 15.1820075,13.6510914 C16.2523103,13.6510914 17.1199622,12.7834395 17.1199622,11.7131367 C17.1199622,10.6428338 16.2523103,9.77518191 15.1820075,9.77518191 Z" id="形状结合" fill="#FFFFFF"></path>
+    </g>
+</svg>

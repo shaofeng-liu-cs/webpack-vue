@@ -1,0 +1,39 @@
+#main-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#dashboardMap {
+    height: 100%;
+    width: 100%;
+}
+.button-history-left {
+    position: absolute;
+    top: 15px;
+    left: 400px;
+    cursor: pointer;
+    font-family: 'HelveticaNeue-Bold';
+    color: #ffffff;
+    background: rgba(48, 80, 101, 0.6);
+    z-index: 2;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.button-history-left:hover {
+    background: #376893;
+}
+.button-history-right {
+    position: absolute;
+    top: 15px;
+    right: 336px;
+    cursor: pointer;
+    font-family: 'HelveticaNeue-Bold';
+    color: #ffffff;
+    background: rgba(48, 80, 101, 0.6);
+    z-index: 2;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.button-history-right:hover {
+    background: #376893;
+}

@@ -1,0 +1,7 @@
+{
+    "##项目经纬度精度配置": "Number(默认值为6)",
+    "ACCURACY_OF_LONGITUDE_AND_LATITUDE": 6,
+
+    "##项目工程管理模式(eDesign表示产品自行管理，其他比如IM表示对接存量工程管理系统)": "String(默认为IM)",
+    "PROJECT_MANAGE_MODE": "eDesign"
+}

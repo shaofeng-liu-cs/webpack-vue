@@ -1,0 +1,26 @@
+.initiate-survey-container{
+background-color: #f0f8fa !important;
+.initiate-survey-type{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    div{
+        height: 32px;
+        line-height: 32px;
+        font-size: 14px;
+        margin: 0 5px;
+        padding: 0 5px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .activeTap{
+        color: #fff;
+        background-color: #4477ee;
+    }
+    .deactiveTap{
+        color: #4477ee;
+        background-color: #fff;
+        border: 1px solid #4477ee;
+    }
+}
+}

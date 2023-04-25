@@ -1,0 +1,63 @@
+.scheme-configuration-box{
+	display: flex;
+	padding-right: 0 !important;
+	.bottom-options{
+		bottom:0px !important;
+	}
+	
+	.right-content-box{
+		flex:1;
+		flex-direction: column;
+		border-radius:5px;
+		display: flex;
+		overflow: hidden;
+		padding:0 20px;
+		position: relative;
+		&.hasPaddingBt{
+			padding-bottom: 50px;
+		}
+		.right-tabs{
+			display: flex;
+			border-bottom: 1px solid #EAF0F7;
+			.tab-item{
+				width: 150px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				cursor: pointer;
+				position: relative;
+				height: 40px;
+				&:after{
+					content:'';
+					height: 15px;
+					width: 1px;
+					position: absolute;
+					background-color: #EAF0F7;
+					top:0;
+					bottom:0;
+					right: 0;
+					margin:auto;
+				}
+				&.active{
+					border-bottom: 2px solid $theme-color;
+				}
+				&:last-child{
+					&:after {
+						display: none;
+					}
+				}
+			}
+		}
+		.btt-content-box{
+			padding:20px 20px 12px;
+			background-color: var(--theme-card-main-color);
+			flex:1;
+			overflow: hidden;
+			border-radius: 6px;
+			&.nopadding{
+				padding:0;
+			}
+		}
+	
+	}
+}

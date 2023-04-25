@@ -1,0 +1,103 @@
+
+.setting {
+    input[type='checkbox'] {
+        position: absolute !important;
+    }
+
+}
+
+.body-class {
+    display: flex;
+    height: 100%;
+    border-bottom: 1px solid #80808073;
+}
+.left {
+    width: 200px;
+    overflow: auto;
+    border-right: 1px solid #80808073;
+}
+.right {
+    // display: flex;
+    flex-grow: 1;
+    overflow: auto;
+}
+.singleItem {
+    height: 40px;
+    font-size: 13px;
+    border-bottom: 1px solid #80808073;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover {
+        // font-size: 16px;
+        color: #4747ee;
+    }
+}
+
+.activeClass {
+    font-size: 16px;
+    color: #4747ee;
+}
+
+.title {
+    color: #2d8cf0;
+    border-bottom: 1px solid #d7d7d7;
+    margin: 10px 5px 10px 5px;
+    font-size: 14px;
+}
+
+.content-div {
+    height: 38px;
+    display: flex;
+    margin: 0px 20px 6px;
+    .content-label {
+        width: 55%;
+        display: flex;
+        align-items: center;
+    }
+    .content-value {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .device, .chasis, .card {
+            width: 33.333%;
+        }
+        .shelf, .apanel, .seq, .toMiddle {
+            width: 73px;
+        }
+    }
+    .content-value-slider {
+        display: block;
+        padding-left: 8px;
+    }
+    /deep/ .el-slider__input::after {
+        content: '%';
+        width: 20px;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        right: 40px;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+    }
+    /deep/ .el-input__inner {
+        padding-left: 25px;
+    }
+
+    .ui-switch-container {
+        transition-duration: 0.3s !important;
+    }
+
+}
+
+
+// ::-webkit-scrollbar {
+// 	background-color: rgba(0, 0, 0, 0.15) !important;
+// }
+
+// ::-webkit-scrollbar-thumb {
+// 	background-color: rgba(0, 0, 0, 0.34) !important;
+// }

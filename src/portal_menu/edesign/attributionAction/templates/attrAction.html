@@ -1,0 +1,90 @@
+<!--
+ * @Author: HongAnDing
+ * @Date: 2022-07-12 16:04:40
+ * @LastEditors: HongAnDing
+ * @LastEditTime: 2022-07-18 11:11:38
+ * @Description: file content
+-->
+<div class="row attrCopy" style="height: 100%;">
+    <div class="col-md-2" style="height: 100%;">
+        <div class="cs-block" style="height: 100%;">
+            <div class="title no-padding" style="display:flex; justify-content:space-between; align-items:center; padding-right: 8px;;">
+                <h3>{{LAYER_ACTION}}</h3>
+                <div style="float: right;">
+                    <button type="button" class="btn btn-default" id="btnAddLayerAction" title="{{OPB_NEW}}">
+                        <i class="fa fa-plus"></i>
+                    </button>
+                    <button type="button" class="btn btn-default" id="btnModLayerAction" title="{{OPB_EDIT}}">
+                        <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button" class="btn btn-default" id="btnDelLayerAction" title="{{OPB_DELETE}}">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="input-group search-group" id="SearchAttr" style="display: flex;padding: 8px;">
+                <input
+                    type="text"
+                    class="form-control"
+                    v-model="searchValue"
+                    id="searchValue"
+                    :placeholder="placeholderSearch"
+                    @keyup.enter="search"
+                />
+                <button type="button" class="btn btn-default" id="btnSearchAttrEdnRes" title="{{OPB_SEARCH}}">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+            <ul id="layerActionTree" class="ztree" style="height: calc(100% - 80px);"></ul>
+        </div>
+    </div>
+    <div class="col-md-6" style="height: 100%;">
+        <div class="cs-block" style="height: 100%;">
+            <div class="title no-padding">
+                <h3 id="attr_map">{{ATTR_MAP}}</h3>
+                <h3 id="attr_mer">{{ATTR_MER}}</h3>
+            </div>
+            <div class="control" style="display: flex;justify-content: space-between;padding: 6px 8px;">
+                <div class="control_left">
+                    <button type="button" class="btn btn-default" id="btnAddAttrEdnRes" title="{{OPB_NEW}}">
+                        <i class="fa fa-plus"></i>
+                    </button>
+                    <button type="button" class="btn btn-default" id="btnDelAttrEdnRes" title="{{OPB_DELETE}}">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                </div>
+                <div class="control_right" style="display: flex;">
+                    <button type="button" class="btn btn-default" id="btnSaveObjEDNRes" title="Save" style="margin-right: 4px;">
+                        {{SAVE}}
+                    </button>
+                    <button type="button" class="btn btn-default" id="btnRefreshObjEDNRes" title="Auto Generation" style="margin-right: 4px;">
+                        {{AUTO_GEN}}
+                    </button>
+                    <!-- <div class="input-group search-group" style="display: flex;">
+                        <input type="text" class="form-control" id="searchValue" style="height: 100%;" />
+                        <button type="button" class="btn btn-default" id="btnDelAttrEdnRes" title="{{OPB_SEARCH}}" style="height: 100%;">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="input-group search-group" data-toggle="searchbar"></div>
+            <div id="attrMap" style="height: calc(100% - 80px);"></div>
+        </div>
+    </div>
+    <div class="col-md-4" style="height: 100%;">
+        <div class="cs-block" id="tabSourceTypeAttr" style="height: calc(50% - 4px);">
+            <div class="title no-padding">
+                <h3 id="source_type_attr">{{SOURCE_TYPE_ATTR}}</h3>
+                <h3 id="attr">{{ATTR}}</h3>
+            </div>
+            <div id="gridSourceTypeAttr"></div>
+        </div>
+        <div class="cs-block" id="tabToTypeAttr" style="height: calc(50% - 4px);">
+            <div class="title no-padding">
+                <h3>{{TO_TYPE_ATTR}}</h3>
+            </div>
+            <div id="gridToTypeAttr"></div>
+        </div>
+    </div>
+</div>

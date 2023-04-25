@@ -1,0 +1,36 @@
+.required>label:before {
+    content: "*";
+    color: red;
+    padding-right: 1.8px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.hardware-form-style {
+    /deep/ .panel-body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .input-content {
+        margin: 10px 0;
+        .input-group {
+            input{
+                border-right: 0;
+            }
+        }
+    }
+    .res-form-1 {
+        width: 100%;
+    }
+    .res-form-2 {
+        width: 50%;
+        padding: 0 5px;
+    }
+    .res-form-3 {
+        width: 33.33%;
+        padding: 0 5px;
+    }
+    .res-form-4 {
+        width: 25%;
+        padding: 0 5px;
+    }
+}

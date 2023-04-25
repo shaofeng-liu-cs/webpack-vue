@@ -1,0 +1,51 @@
+.wizard-modal-content-box{
+	display: flex;
+	flex-direction: column;
+	.headFilter{
+		.headTitle{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			.headTitText{
+				color:$theme-color;
+			}
+			.fg{
+				flex:1;
+				height: 1px;
+				background-color: #eee;
+				margin-left: 10px;
+			}
+		}
+		.baseSelectList{
+			display: flex;
+			flex-wrap: wrap;
+			.selectItem{
+				display: flex;
+				margin-left: 10px;
+				width: 250px;
+				align-items: center;
+				.itemLabel{
+					margin-right: 10px;
+				}
+				.itemAfter{
+					margin-left: 5px;
+				}
+				.itemInput{
+					flex:1;
+					input{
+						width: 100%;
+						border: 1px solid #eae9e9;
+						height: 24px;
+					}
+				}
+			}
+		}
+		.filterBtnList{
+			margin-top: 10px;
+			text-align: right;
+			.btn{
+				margin-left: 10px;
+			}
+		}
+	}
+}

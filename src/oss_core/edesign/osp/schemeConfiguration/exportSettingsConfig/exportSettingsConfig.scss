@@ -1,0 +1,35 @@
+.param-set-child-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex:1;
+    overflow: hidden;
+    .left-tree-box{
+      width: 217px;
+      min-width: 217px;
+      padding:15px 20px;
+      border-right:1px solid var(--theme-edn-tabs-border);
+    }
+    .param-set-body {
+      flex:1;
+      display: flex;
+      flex-direction: column;
+      padding:20px;
+      overflow: hidden;
+      .table-title-box{
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .table-box{
+        flex:1;
+        overflow: hidden;
+      }
+      .param-set-footer{
+        text-align: right;
+        padding-top: 20px;
+      }
+    }
+  
+  }
+  
+  

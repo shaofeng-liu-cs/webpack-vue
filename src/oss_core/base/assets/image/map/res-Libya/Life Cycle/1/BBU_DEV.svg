@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>BBU</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.301941803   0 0 0 0 0.296602588   0 0 0 0 0.296602588  0 0 0 0.177638767 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="BBU" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="椭圆形备份-7">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <circle stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" fill="blue" fill-rule="evenodd" cx="12" cy="12" r="11.5"></circle>
+        </g>
+        <path d="M10.81125,13.90875 C10.1054714,14.9437136 9.38018287,15.5660795 8.1275,15.57375 L6.61375,15.57375 L6.61375,14.775 L4.2625,16.13625 L6.625,17.4975 L6.625,16.69875 L8.1275,16.69875 C9.53560863,16.696194 10.4312802,16.0899726 11.3625,15.03375 C11.1402589,14.6788673 10.9555158,14.3018406 10.81125,13.90875 Z M6.35125,6 L6.35125,6.79875 L7.645,6.79875 C10.376243,6.8049363 12.7609971,9.01750704 12.7671834,11.74875 C12.7671834,12.7632031 13.1701734,13.7361068 13.8875,14.4534334 C14.6048266,15.1707601 15.2130469,15.57375 16.2275,15.57375 L16.2275,15.57375 L17.3875,15.57375 L17.3875,14.775 L19.75,16.13625 L17.39875,17.4975 L17.39875,16.69875 L16.2275,16.69875 C13.496257,16.6925637 11.6483697,14.479993 11.6421834,11.74875 C11.6421834,9.63626083 9.75748917,7.92375 7.645,7.92375 L7.645,7.92375 L6.3625,7.92375 L6.3625,8.7225 L4,7.36125 L6.35125,6 Z M17.3875,6 L19.75,7.36125 L17.3875,8.7225 L17.3875,7.92375 L16.5492697,7.92375 C15.2904982,7.93026246 14.4692487,8.55749361 13.76375,9.6 C13.6196345,9.20684522 13.4348839,8.82980324 13.2125,8.475 C14.1442538,7.41165987 15.1354618,6.80092417 16.5492697,6.79875 L16.5492697,6.79875 L17.3875,6.79875 L17.3875,6 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

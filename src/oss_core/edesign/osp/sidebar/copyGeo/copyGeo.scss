@@ -1,0 +1,73 @@
+.content-div {
+    display: flex;
+    align-items: center;
+    /deep/ .input-group {
+        flex-grow: 1;
+    }
+}
+.content-label {
+    text-align: right;
+}
+
+
+.select {
+    height: 26px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    > button{
+        width: 300px;
+        height: 30px;
+    }
+}
+
+.footer {
+    margin: 10px 0;
+    text-align: right;
+}
+
+.copy-geo {
+    display: flex;
+    flex-flow: column;
+    .data {
+        flex-grow: 1;
+        display: flex;
+        flex-flow: column;
+        .grid-div {
+            flex-grow: 1;
+            display: flex;
+            flex-flow: column;
+            /deep/ .ui-jqgrid {
+                flex-grow: 1;
+                display: flex;
+                flex-flow: column;
+                //overflow: scroll;
+                // height: 100%;
+                .ui-jqgrid-view {
+                    flex-grow: 1;
+                    display: flex;
+                    flex-flow: column;
+                    //overflow: scroll;
+                    .slimScrollDiv {
+                        // flex布局下防止父元素被撑开，先设置高度为0，
+                        height: 0 !important;
+                        flex-grow: 1;
+                        display: flex;
+                        flex-flow: column;
+                        //overflow: scroll;
+                        .ui-jqgrid-bdiv {
+                            flex-grow: 1;
+                        }
+                    }
+                }
+            }
+            /deep/ .ui-jqgrid-pager {
+                text-align: center;
+                .ui-pg-control {
+                    float: inherit;
+                }
+            }
+        }
+    }
+}
+

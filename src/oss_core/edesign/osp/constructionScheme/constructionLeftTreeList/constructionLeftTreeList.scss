@@ -1,0 +1,143 @@
+.left-tree-box {
+	width: 100%;
+	// padding:0 20px;
+	.options_icon {
+		color: var(--theme-text-main-color);
+		margin-left: 10px;
+		font-size: 12px;
+		cursor: pointer;
+	}
+	
+	.tree-body{
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		overflow: hidden;
+		padding: 0 10px;
+	}
+	.tree-content {
+		padding-bottom: 15px;
+		flex:1;
+		overflow: hidden;
+		.treeParent {
+			.tree_title {
+				display: flex;
+				height: 40px;
+				align-items: center;
+				padding-right: 20px;
+				cursor: pointer;
+				color:var(--theme-text-main-color);
+				&.active {
+					.options {
+						visibility: visible;
+					}
+					.title_text {
+						color: var(--theme-text-main-color);
+					}
+				}
+				.titleIcon {
+					cursor: pointer;
+					color: var(--theme-text-main-color);
+					font-size: 12px;
+					font-weight: bold;
+					min-width: 20px;
+				}
+
+				.title_text {
+					font-weight: 400;
+					color: var(--theme-text-main-color);
+					font-size: 12px;
+					flex: 1;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					.icon_osp{
+						font-size: 12px;
+						margin-right: 5px;
+					}
+				}
+				.options {
+					visibility: hidden;
+
+					.options_icon {
+						margin-right: 0;
+						margin-left: 3px;
+					}
+				}
+				&:hover {
+					.options {
+						visibility: visible;
+					}
+				}
+			}
+
+			.child_list_box {
+				padding-left: 20px;
+
+				.tree_child_item {
+					display: flex;
+					height: 30px;
+					align-items: center;
+					cursor: pointer;
+					padding-right: 10px;
+					padding-left: 10px;
+					justify-content: space-between;
+					border-radius: 2px;
+					i{
+						font-size: 12px;
+					}
+					.item_tit {
+						flex:1;
+						font-weight: 400;
+						font-size: 12px;
+						color: var(--theme-text-main-color);
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+					}
+
+					.options{
+						visibility: hidden;
+						.options_icon {
+							margin-right: 0;
+							margin-left: 3px;
+						}
+					} 
+
+					&.active {
+						background-color: var(--theme-time-axis-line-back);
+						.options{
+							visibility: visible;
+						}
+						.item_tit {
+							color: var(--theme-text-main-color);
+						}
+					}
+					&:hover{
+						.options {
+							visibility: visible;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.add-menu-scheme-form{
+	.marginBt{
+		margin-bottom: 10px;
+	}
+	.requerid {
+		position: relative;
+		padding-left: 10px;
+		&:after {
+			content: '*';
+			color: var(--theme-red-color);
+			font-size: 14px;
+			position: absolute;
+			left: 0;
+		}
+	}
+	
+	
+}

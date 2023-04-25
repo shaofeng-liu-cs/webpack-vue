@@ -1,0 +1,181 @@
+
+
+.showImgContentBox{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    .showImgHeadSetting{
+        display: flex;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+       
+        .head_item{
+            margin-left: 5px;
+            &.m-l-lg{
+                margin-left: 20px;
+            }
+        }
+        .headInput{
+            width: 110px;
+            height: 26px;
+            padding:3px 5px;
+            border-radius: 2px;
+            background: #fff;
+            border: 1px solid #cec7c7;
+        }
+    }
+    
+}
+
+.shengchegn_loading_box{
+    position: fixed;
+    z-index: 9999;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.6);
+    .loading_fenge_conetent{
+        width: 400px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        .shengchegn_loading{
+            width: 200px;
+            height: 30px;
+            margin: 0 auto;
+            display: flex;
+        }
+        .pro_num{
+            height: 40px;
+            width: 100%;
+            text-align: center;
+            line-height: 60px;
+            color:#bbbbf1;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+}
+
+.showImgFgBox{
+    flex:1;
+    overflow-y: auto;
+    width: 100%;
+    position: relative;
+    .defalutImgShow{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+        }
+        
+    }
+    .showImgItemBox{
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        background-color: #eee;
+        .showImgItem_Img{
+            flex:1;
+            width: 100%;
+            position: relative;
+            margin:1px;
+            background-color: #fff;
+            .imgIndexSeq{
+                position: absolute;
+                left:10px;
+                top:10px;
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                border:1px solid #3c3b3b;
+                font-size: 16px;
+                font-weight: bold;
+                color:#3c3b3b;
+                border-radius: 100%;
+            }
+            img{
+                width: 100%;
+                background-color: #fff;
+                cursor: pointer;
+                &:hover{
+                    opacity: .7;
+                }
+            }
+            .hideImg{
+                visibility: hidden;
+            }
+            .imgHoverBox{
+                display: none;
+                position: absolute;
+                z-index: 2;
+                left:0;
+                top:0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0.6);
+                color:#fff;
+                align-items: center;
+                justify-content: center;
+                i.m-r{
+                    margin-right: 15px;
+                }
+                i{
+                    cursor: pointer;
+                    font-size: 25px;
+                }
+            }
+            &:hover{
+                .imgHoverBox{
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+.shengchegn_loading span{
+    display: inline-block;
+    width: 30px;
+    height: 100%;
+    margin-right: 10px;
+    background: rgb(99, 103, 237);
+    -webkit-transform-origin: right bottom;
+    -webkit-animation: load 1s ease infinite;
+}
+.shengchegn_loading span:last-child{
+    margin-right: 0px; 
+}
+.shengchegn_loading span:nth-child(1){
+    -webkit-animation-delay:0.13s;
+}
+.shengchegn_loading span:nth-child(2){
+    -webkit-animation-delay:0.26s;
+}
+.shengchegn_loading span:nth-child(3){
+    -webkit-animation-delay:0.39s;
+}
+.shengchegn_loading span:nth-child(4){
+    -webkit-animation-delay:0.52s;
+}
+.shengchegn_loading span:nth-child(5){
+    -webkit-animation-delay:0.65s;
+}
+@-webkit-keyframes load{
+    0%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        -webkit-transform: rotate(90deg) scale(.3);
+    }
+}

@@ -1,0 +1,372 @@
+.menu-right-content {
+  & > div {
+    &.layer-control-container {
+      background: #ffffff;
+      // padding-top: 10px;
+      display: flex;
+      flex-flow: column;
+      overflow: hidden;
+
+      > .layer-grid-search {
+        width: 340px;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+.layer-grid-container {
+  width: 360px;
+  height: calc(100% - 200px);
+  background: #ffffff;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+/* 表格头部 */
+.layer-grid-header {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 9px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #d7d7d7;
+  flex-shrink: 0;
+  & > div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+
+    &:nth-child(1) {
+      padding-left: 25px;
+      width: 161px;
+      display: flex;
+      flex-flow: row-reverse;
+      justify-content: flex-end;
+      align-items: center;
+      cursor: pointer;
+
+      /deep/ .popover-wrap span {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+/* 表格内容 */
+.layer-grid-body {
+  width: 100%;
+  height: calc(100% - 40px);
+  overflow: hidden;
+
+  & > .layer-grid-tap-tit {
+    border-bottom: 1px solid #d7d7d7;
+  }
+}
+
+.layer-grid-body-content {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+// 树内容区域
+.layer-grid-tap-tit.layer-grid-tap-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  > div:nth-child(1) {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 9px;
+    &:hover {
+      background: #e3e8f4;
+    }
+
+    & > div {
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 10px;
+      line-height: 30px;
+
+      &:nth-child(1) {
+        width: 15px;
+        height: 15px;
+        margin: 0 2px;
+      }
+      &:nth-child(2) {
+        width: 15px;
+        height: 15px;
+        margin-right: 2px;
+        top: 0;
+        font-size: 10px;
+        color: #8a8a8a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      > img {
+        max-width: 30px;
+        max-height: 30px;
+      }
+
+      &.tap {
+        cursor: pointer;
+      }
+
+      &:nth-child(3) {
+        width: 125px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
+      }
+    }
+  }
+  > div:nth-child(2) {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+  }
+}
+
+// 树头部区域
+.layer-grid-tap-tit {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 9px;
+  &:hover {
+    background: #e3e8f4;
+  }
+
+  & > div {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    line-height: 15px;
+
+    &:nth-child(1) {
+      width: 15px;
+      height: 15px;
+      margin: 0 2px;
+      top: 0;
+      font-size: 10px;
+      color: #8a8a8a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    > img {
+      max-width: 20px;
+      max-height: 20px;
+    }
+
+    &.tap {
+      cursor: pointer;
+    }
+
+    &:nth-child(2) {
+      width: 142px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: block;
+    }
+  }
+}
+
+.layer-grid-tap-content {
+  border-bottom: #d7d7d7 1px solid;
+  background: #fafafa;
+}
+
+// 主题头部区域
+.layer-grid-theme-tap-tit {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  > div:nth-child(1) {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 9px;
+    padding-left: 36px;
+    > .tap {
+      width: 15px;
+      margin-right: 2px;
+    }
+    > .title {
+      width: 169px;
+    }
+    > .check {
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &:hover {
+      background: #e3e8f4;
+    }
+  }
+  > div:nth-child(2) {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    > div {
+      width: 100%;
+      height: 30px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 9px;
+      padding-left: 53px;
+      > .tap {
+        width: 15px;
+        margin-right: 2px;
+      }
+      > .title {
+        width: 91px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      > .check {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &:hover {
+        background: #e3e8f4;
+      }
+    }
+  }
+}
+// 主题内容区域
+
+.theme-img {
+  width: 30px;
+  height: 30px;
+}
+
+/* 表格底部 */
+// .layer-grid-footer {
+//     width: 100%;
+//     height: 26px;
+//     margin-top: 5px;
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: center;
+//     flex-shrink: 0;
+
+//     & > button {
+//         margin: 5px 10px 0 10px;
+//         min-width: 50px;
+//     }
+// }
+
+.search-btn {
+  > div {
+    cursor: pointer;
+  }
+}
+
+.red {
+  color: red;
+}
+
+// tap切换
+.layer-control-restap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* height: 40px; */
+  padding: 0 0 5px 10px;
+  // > div:nth-child(2) {
+  //     margin: 0 10px 0 0;
+  // }
+}
+
+.filter-class {
+  height: 26px;
+}
+
+.right-radius {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.left-radius {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.filter-li {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.filter-class,
+.filter-btn {
+  min-width: fit-content !important;
+}
+
+.image-btn {
+  cursor: pointer;
+}
+
+.dropdown-btn {
+  min-width: auto !important;
+  padding: 3px 6px;
+  margin-right: 8px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.blue-border {
+  border-left: 1px solid #b76666;
+}
+
+// .gray-border {
+//   border-left: 1px solid #e1d6d6;
+// }
+
+.control-all {
+  cursor: pointer;
+}
+
+// 主题色块
+.theme-color {
+  width: 60px;
+  height: 15px;
+}

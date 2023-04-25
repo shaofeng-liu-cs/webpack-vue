@@ -1,0 +1,142 @@
+.construction-list-body{
+	height: 100%;
+	width: 100%;
+	.construction-item-box{
+		border-radius: 2px;
+		width: 100%;
+		margin-top: 33px;
+		position: relative;
+		padding: 20px 0;
+		background: var(--theme-card-three-color);
+		.con-item-head-btns{
+			position: absolute;
+			height: 30px;
+			width: 100%;
+			top:-15px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding:0 10px;
+			.restype-label{
+				height: 26px;
+				line-height: 26px;
+				background: var(--theme-btn-bg-color);
+				border-radius: 2px;
+				padding:0 12px;
+				color:var(--theme-btn-text-color);
+				display: inline-block;
+				font-size: 12px;
+				i{
+					margin-right: 10px;
+					font-size: 14px;
+				}
+			}
+			.add-con-btn{
+				height: 26px;
+				line-height: 26px;
+				background: var(--theme-btn-two-bg-color);
+				border-radius: 2px;
+				padding: 0 10px;
+				color:var(--theme-btn-two-text-color);
+				font-size: 12px;
+				display: inline-block;
+				cursor: pointer;
+				i {
+					margin-right: 2px;
+					font-size: 14px;
+				}
+			}
+		}
+		.con-nodata-box{
+			padding: 0;
+			/deep/ .el-empty__description{
+				margin-top: 13px;
+				p {
+					font-size: 12px;
+					color: var(--theme-no-data-text-color);
+					margin-top: 0;
+				}
+			}
+		}
+		.con-item-content{
+			display: flex;
+			padding:0 20px;
+			margin-top: 20px;
+			font-size: 13px;
+			overflow: hidden;
+			&:first-child{
+				margin-top: 10px;
+			}
+			.it-content{
+				display: flex;
+				flex-direction: column;
+				.it-label{
+					height: 30px;
+				}
+				.it-val{
+					word-wrap: break-word;
+					line-height: 22px;
+				}
+			}
+			.it-content-scheme{
+				width: 30%;
+				min-width: 30%;
+				padding-right: 20px;
+				/deep/ .el-select {
+					width: 80%;
+				}
+			}
+			.it-content-match{
+				flex:1;
+				padding-right: 20px;
+			}
+			.it-content-btns{
+				width: 320px;
+				min-width: 320px;
+				.it-btn {
+					display: flex;
+					width: 100%;
+					justify-content: flex-end;
+					.btn-span-item{
+						display: flex;
+						align-items: center;
+						font-weight: 500;
+						color: var(--theme-btn-bg-color);
+						font-size: 13px;
+						cursor: pointer;
+						margin-right: 20px;
+						i{
+							margin-right: 6px;
+							font-size: 14px;
+						}
+						.btn-text{
+							text-decoration: underline;
+						}
+						&:last-child{
+							margin-right: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.show-detail-drawer {
+		/deep/ .el-drawer {
+			width: 100% !important;
+			.el-drawer__header {
+				font-weight: 500;
+				font-size: 16px;
+				padding: 0 20px;
+				height: 56px;
+				margin:0;
+
+			}
+			.el-drawer__body{
+				padding:10px;
+			}
+		}
+
+	}
+	
+}

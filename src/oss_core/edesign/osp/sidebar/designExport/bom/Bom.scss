@@ -1,0 +1,116 @@
+.bom {
+    display: flex;
+    flex-flow: row;
+}
+.modal-content-box{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .table-box{
+        flex:1;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+}
+
+.left {
+    border: 1px solid #eadcdc;
+    padding-right: 10px;
+    width: 180px;
+    min-width: 180px;
+    overflow: auto;
+    height: 433px;
+    margin-right: 10px;
+    /deep/ .level2 span:last-child {
+        position: relative;
+        bottom: 3px;
+        left: 5px;
+    }
+}
+
+.right {
+    flex-grow: 1;
+    .title {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        .title-content {
+            font-size: 19px;
+        }
+        .title-price {
+            font-size: 14px;
+            text-align: left;
+        }
+        .showFlag-class {
+            margin-top: -6px;
+            text-align: right;
+        }
+    }
+    .old-title {
+        margin-top: 3px;
+    }
+}
+
+
+#newGrid,
+#newGrid /deep/ .ui-jqgrid-view,
+#newGrid /deep/ .ui-jqgrid-view .ui-jqgrid-hdiv,
+#newGrid /deep/ .ui-jqgrid-view .ui-jqgrid-hdiv .ui-jqgrid-hbox .ui-jqgrid-htable,
+#newGrid /deep/ .ui-jqgrid-view .slimScrollDiv,
+#newGrid /deep/ .ui-jqgrid-view .slimScrollDiv .ui-jqgrid-bdiv,
+#newGrid /deep/ .ui-jqgrid-view .slimScrollDiv .ui-jqgrid-bdiv #btable_newGrid {
+    width: 100% !important;
+}
+
+#oldGrid,
+#oldGrid /deep/ .ui-jqgrid-view,
+#oldGrid /deep/ .ui-jqgrid-view .ui-jqgrid-hdiv,
+#oldGrid /deep/ .ui-jqgrid-view .ui-jqgrid-hdiv .ui-jqgrid-hbox .ui-jqgrid-htable,
+#oldGrid /deep/ .ui-jqgrid-view .slimScrollDiv,
+#oldGrid /deep/ .ui-jqgrid-view .slimScrollDiv .ui-jqgrid-bdiv,
+#oldGrid /deep/ .ui-jqgrid-view .slimScrollDiv .ui-jqgrid-bdiv #btable_oldGrid {
+    width: 100% !important;
+}
+
+.rightFormBox{
+    position: absolute;
+    width: 400px;
+    background-color: #fff;
+    right: -400px;
+    top:0;
+    bottom:0;
+    z-index: 200;
+    box-shadow: 1px 0 3px 3px #eee ;
+    transition: all .3s;
+    &.showForm{
+        right: 0;
+    }
+    .rightHeadTitle{
+        font-size: 14px;
+        color:#333;
+        font-weight: 500;
+        border-bottom: 1px solid #eee;
+        padding: 10px ;
+    }
+    .formContentBox{
+        padding: 10px;
+        .formItem{
+            display: flex;
+            margin-bottom: 10px;
+            .itemLabelBox{
+                width: 135px;
+                min-width: 135px;
+            }
+            .itemInputBox{
+                flex:1;
+                word-break: break-word;
+            }
+        }
+        .formBtn{
+            text-align: right;
+            margin-top: 20px;
+        }
+    }
+}

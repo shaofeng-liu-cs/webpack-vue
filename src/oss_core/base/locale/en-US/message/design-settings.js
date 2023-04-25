@@ -1,0 +1,16 @@
+export default {
+  SETTING_GIS_OPERATION: 'GIS Operation',
+  SETTING_SELECTION_TOLERANCE: 'Selection tolerance(pixel)',
+  SETTING_BINDING_TOLERANCE: 'Binding tolerance(meter)',
+  SETTING_UNDO_REDO: 'Undo/Redo Stack(1-20)',
+  SETTING_SELECTION_TYPE: 'Selection Type',
+  SETTING_INTERSECTION: 'Intersection',
+  SETTING_CONTAINS: 'Contains',
+  SETTING_BINDING: 'Binding',
+  SETTING_AUTO_BIND: 'Auto binding after create the line',
+  SETTING_SAME_LAYER: 'Auto select when multiple options in the same layer',
+  SETTING_MULTIPLE_LAYER: 'Auto select when multiple options in multiple layer',
+  SETTING_LINE_RES_TYPE: 'Line Res Type',
+  SETTING_SEQ: 'SEQ',
+  SETTING_POINT_RES_TYPE: 'Point Resource Type',
+};

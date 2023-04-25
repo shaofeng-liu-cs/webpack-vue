@@ -1,0 +1,102 @@
+.param-set-child-container {
+    height: 100%;
+  
+    // .export-setting-title {
+    //   padding: 10px 5px;
+    //   font-size: 14px;
+    // }
+  
+    .param-set-body {
+      // height: calc(100% - 40px);
+      height: 500px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-bottom: 10px;
+  
+      .left-tree {
+        border: 1px solid #ddd;
+        height: 100%;
+        width: 25%;
+        overflow: auto;
+      }
+  
+      .right {
+        border: 1px solid #ddd;
+        height: 100%;
+        width: 72%;
+        display: flex;
+        flex-flow: column;
+      }
+    }
+  
+    .param-set-footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
+  
+  //   .left-tree {
+  //     border: 1px solid #ddd;
+  //     height: 100%;
+  //     width: 25%;
+  //     margin-bottom: -17px;
+  //     overflow: auto;
+  //   }
+  //   .mid {
+  //     width: 10px;
+  //   }
+  //   .right {
+  //     border: 1px solid #ddd;
+  //     height: 100%;
+  //     width: 75%;
+  //     display: flex;
+  //     flex-flow: column;
+  //   }
+  
+  .type {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .table-name {
+    height: 50px;
+    background-color: #f4f6f9b8;
+    font-size: 15px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  //   .param-set-child-container /deep/ .ui-jqgrid {
+  //     flex-grow: 1;
+  //   }
+  
+  //   .param-set-child-container /deep/ ul {
+  //     padding-left: 10px !important;
+  //     margin-left: 10px !important;
+  //   }
+  
+  //   .param-set-child-container /deep/ .level1 {
+  //     line-height: 30px;
+  //     /* margin-left: -10px; */
+  //   }
+  
+  /* .param-set-child-container /deep/ .level1:hover {
+            background-color: #ddd;
+        } */
+  //   .param-set-child-container /deep/ .noline_docu {
+  //     width: 0;
+  //   }
+  /* .param-set-child-container /deep/ .ui-jqgrid-view {
+            height: 100%;
+        } */
+  
+  .required-label:before {
+    content: '*';
+    color: #fb6e52;
+    vertical-align: middle;
+    margin-right: 3px;
+    line-height: 1;
+  }

@@ -1,0 +1,21 @@
+// eslint-disable-next-line no-undef
+define({
+  DESIGN_PREPARATION: 'Design Preparation',
+  BEFORE_DESIGN_START: 'Before design start, get all informations by survey.',
+  INTEGRATION_WITH_ESURVEY: 'Integration with eSurvey to do the on-site survey. Get Building/User informations to support design.',
+  HIGH_LEVEL_DESIGN: 'High Level Design',
+  DESIGN_DEVICE_AND_CABLE_ROUTE: 'Design the device position and cable route.',
+  SITE_POSITION: '1. Site position is better to be the center of design area.',
+  MATCH_ADDRESS_COVERAGE_NEEDS: '2. Use splitters to match address coverage needs.',
+  CONSIDER_THE_SUPPORT_FACILITIES: '3. Consider the support facilities.',
+  LOW_LEVEL_DESIGN: 'Low Level Design',
+  NETWORK_SIDE_TO_USER_SIDE: 'Design the connections from network side to user side.',
+  FOR_L1_SPLITTER: '1. For L1 Splitter, it is better to use jump than direction connection, easy to maintenance.',
+  CHECK_THE_OPTICAL_BUDGET: '2. Need to check the optical budget after connections is done.',
+  BUILDING_INTERNAL_DESIGN: '3. Building internal design is needed for high-rise building.',
+  DESIGN_EXPORT: 'Design Export',
+  SHARE_DESIGN_RESULTS: 'Share design results to others',
+  BOM_FOR_DESIGN: '1. BOM for design validations.',
+  KML_FOR_SHARE_HLD: '2. KML for share High Level Design to other system.',
+  CAD_FOR_CONSTRUCTIONS: '3. CAD for constructions.',
+});

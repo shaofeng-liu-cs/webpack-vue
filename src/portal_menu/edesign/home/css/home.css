@@ -1,0 +1,228 @@
+.designer-main.edesign-v9-home-content,
+.designer-main.edesign-v9-home-content > .designer-body,
+.edesign-v9-home-content > .designer-body > div.grid-stack > div.grid-stack-item,
+.edesign-v9-home-content > .designer-body > div.grid-stack > div.grid-stack-item > div.grid-stack-item-content,
+.edesign-v9-home-content > .designer-body > div.grid-stack > div.grid-stack-item > div.grid-stack-item-content > div.panel {
+    height: 100%;
+}
+.edesign-v9-home-content > .designer-body > div.grid-stack,
+.edesign-v9-home-content > .designer-body > div.grid-stack > div.grid-stack-item > div.grid-stack-item-content > div.panel > .slimScrollDiv {
+    height: 100% !important;
+}
+.edesign-v9-home-content
+    > .designer-body
+    > div.grid-stack
+    > div.grid-stack-item
+    > div.grid-stack-item-content
+    > div.panel
+    > .slimScrollDiv
+    > .panel-body {
+    height: 100% !important;
+    background-image: linear-gradient(180deg, #eaf6ff 0%, #f9fafc 100%);
+}
+.edesign-v9-home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* 说明列表样式 */
+.edesign-v9-home > .readme-list {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    /* max-width: 1360px; */
+}
+
+.edesign-v9-home > .readme-list > div {
+    /* width: 300px; */
+    flex:1;
+    height: 440px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 10px 10px;
+    position: relative;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.edesign-v9-home > .readme-list > div:hover {
+    box-shadow: 0px 2px 4px 0px #eff2f7;
+}
+
+.edesign-v9-home > .readme-list > div.flex-empty-div {
+    height: 0;
+    padding: 0;
+    border: none;
+    margin: 0;
+    width: 310px;
+}
+.edesign-v9-home > .readme-list > div > div.readme_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 118px;
+    flex-shrink: 0;
+}
+.edesign-v9-home > .readme-list > div:nth-child(1) > .readme_img > img {
+    width: 100px;
+    height: 116px;
+}
+.edesign-v9-home > .readme-list > div:nth-child(2) > .readme_img > img {
+    width: 115px;
+    height: 117px;
+}
+.edesign-v9-home > .readme-list > div:nth-child(3) > .readme_img > img {
+    width: 115px;
+    height: 117px;
+}
+.edesign-v9-home > .readme-list > div:nth-child(4) > .readme_img > img {
+    width: 100px;
+    height: 117px;
+}
+.edesign-v9-home > .readme-list > div > h1 {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #3b4859;
+    line-height: 25px;
+    margin: 20px 0 10px 0;
+}
+
+.edesign-v9-home > .readme-list > div > h3 {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #3b4859;
+    line-height: 16px;
+    white-space: normal;
+    margin: 12px 0;
+}
+.edesign-v9-home > .readme-list > div > ol {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-top: 10px;
+}
+.edesign-v9-home > .readme-list > div > ol > li {
+    width: 100%;
+    height: auto;
+    color: #333333;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    white-space: normal;
+    color: #999999;
+    line-height: 16px;
+}
+.edesign-v9-home > .readme-list > div > ol > li > span {
+    color: #4477ee;
+    cursor: pointer;
+}
+.edesign-v9-home > .readme-list > div > ol.two-ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.edesign-v9-home > .readme-list > div > ol.two-ol > li {
+    text-indent: 25px;
+}
+
+/* chart图标样式开始 */
+.edesign-v9-home > .chart-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    margin-top: 10px;
+}
+/* .edesign-v9-home > .chart-list > div.panel:nth-child(1) {
+    width: 485px;
+    height: 356px;
+}
+.edesign-v9-home > .chart-list > div.panel:nth-child(2) {
+    width: 485px;
+    height: 356px;
+}
+.edesign-v9-home > .chart-list > div.panel:nth-child(3) {
+    width: 390px;
+    height: 356px;
+} */
+.edesign-v9-home > .chart-list > div.panel {
+    border: 1px solid #ebebeb;
+    margin: 10px;
+    height: 356px;
+    flex:1;
+}
+
+.edesign-v9-home > .chart-list > div.panel > .panel-heading {
+    padding: 15px 16px 15px 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+.edesign-v9-home > .chart-list > div.panel > .panel-heading > .panel-title {
+    font-family: 'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
+    font-weight: 650;
+    font-style: normal;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.847058823529412);
+    text-align: left;
+    line-height: 16px;
+}
+.edesign-v9-home > .chart-list > div.panel > .panel-body {
+    width: 100%;
+    height: calc(100% - 50px);
+}
+.edesign-v9-home > .chart-list > div.panel > .panel-body > .chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* 适配小屏幕 */
+@media screen and (min-width: 1340px) and (max-width: 1460px) {
+    .edesign-v9-home > .chart-list > div.panel:nth-child(2) {
+        width: 390px;
+        height: 356px;
+    }
+    .edesign-v9-home > .chart-list > div.panel:nth-child(3) {
+        width: 390px;
+        height: 356px;
+    }
+}
+@media screen and (max-width: 1340px) {
+    .edesign-v9-home > .readme-list > div {
+        width: 275px;
+        height: 460px;
+        margin: 5px;
+    }
+    .edesign-v9-home > .chart-list > div.panel:nth-child(1) {
+        width: 360px;
+        height: 356px;
+    }
+    .edesign-v9-home > .chart-list > div.panel:nth-child(2) {
+        width: 370px;
+        height: 356px;
+    }
+    .edesign-v9-home > .chart-list > div.panel:nth-child(3) {
+        width: 370px;
+        height: 356px;
+    }
+}

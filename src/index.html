@@ -1,0 +1,104 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-04-09 16:25:55
+ * @LastEditTime: 2021-04-29 15:04:41
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \online-design-v9\code\design-web\src\index.html
+-->
+<!DOCTYPE html>
+<html style="width: 100%; height: 100%;">
+
+<head>
+    <title>在线设计</title>
+    <link rel="stylesheet" href="styles/fonts/iconfont/css/iconfont.css?v=9.2.0" />
+    <link rel="stylesheet" href="./oss_core/edesign/assets/iconfont/iconfont.css" />
+    <link id="themesCss" rel="stylesheet" href="frm/fish-desktop/css/fish-desktop-blank-blue.min.css?v=9.2.2(1)" />
+    <link type="text/css" rel="stylesheet" href="oss/styles/oss_default.css?v=9.2.2(1)&amp;htmlVersion=1" />
+    <link rel="stylesheet" href="gis-plat/gis-sdk/gis/map.css" type="text/css" />
+    <link rel="stylesheet" href="styles/fonts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="frm/fish-desktop/third-party/webupload/css/webuploader.css" type="text/css" />
+    <!-- <link id="themesCss" rel="stylesheet" href="frm/fish-desktop/css/fish-desktop-portal.min.css?v=9.2.0" /> -->
+    <link id="indexCss" rel="stylesheet" href="styles/index.css?v=9.2.0" />
+    <link id="themeCss" rel="stylesheet" href="./oss_core/edesign/assets/css/theme_white.css" />
+    <link rel="stylesheet" href="./oss_core/edesign/assets/css/theme_class.css" />
+
+    <style>
+        .swith-theme-div {
+            position: fixed;
+            right: 0;
+            bottom: 10px;
+            width: 30px;
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0px 0px 6px 7px #d0d0d0;
+            overflow: hidden;
+            opacity: .5;
+            z-index: 999;
+        }
+
+        .swith-theme-div-hidden {
+            display: none;
+        }
+
+        .swith-black-box {
+            flex: 1;
+            background-color: black;
+        }
+
+        .swith-white-box {
+            flex: 1;
+            background-color: white;
+        }
+    </style>
+</head>
+<!-- <script type="text/javascript" src="https://cesium.com/downloads/cesiumjs/releases/1.101/Build/Cesium/Cesium.js"></script> -->
+<script type="text/javascript" src="frm/fish-desktop/js/fish-desktop-all.js"></script>
+<script type="text/javascript" src="frm/fish-desktop/third-party/splitter/fish.splitter.js"></script>
+<script type="text/javascript" src="frm/fish-desktop/js/fish-desktop-require.js" data-main="config.js"></script>
+
+<body style="width: 100%; height: 100%;" id="edn-theme-body">
+    <div id="osp" class="osp-container plan-container" style="width: 100%; height: 100%;"></div>
+</body>
+
+<script type="text/javascript">
+    window.onload = function () {
+        console.log('加载完成');
+        const swithDiv = document.createElement('div');
+        swithDiv.className = "swith-theme-div";
+        const loadBlack = () => {
+            console.log('加载黑色主题...');
+            localStorage.setItem('edn-theme', 'black');
+            const themeCss = document.querySelector('#themeCss');
+            themeCss.href = './oss_core/edesign/assets/css/theme_black.css';
+        }
+        const loadWhite = () => {
+            console.log('加载白色主题...');
+            localStorage.setItem('edn-theme', 'white');
+            const themeCss = document.querySelector('#themeCss');
+            themeCss.href = './oss_core/edesign/assets/css/theme_white.css';
+        }
+        const swithBlack = document.createElement('span');
+        swithBlack.className = 'swith-black-box';
+        const swithWhite = document.createElement('span');
+        swithWhite.className = 'swith-white-box';
+        swithBlack.onclick = loadBlack;
+        swithWhite.onclick = loadWhite;
+        swithDiv.append(swithBlack);
+        swithDiv.append(swithWhite);
+        document.body.append(swithDiv);
+
+        const themeVal = localStorage.getItem('edn-theme');
+        if (themeVal === 'black') {
+            loadBlack();
+        } else {
+            loadWhite();
+        }
+
+    }
+</script>
+
+</html>

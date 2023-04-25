@@ -1,0 +1,113 @@
+#edn-theme-body {
+	/* 背景色11 */
+	--theme-bg-color12: #2E3436;
+
+	/* 红色 */
+	--theme-red-color: #FF7878;
+	/* 红色2 */
+	--theme-red-color2: #F75F5F;
+	/* 绿色 */
+	--theme-green-color: #00BB66;
+	/* 内容背景的阴影 */
+	--theme-bg-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+	
+	/* card头部文字前面的标志颜色 */
+	--theme-card-title-before-color: #2F8FFD;
+
+	/* 子card头部右边的横线颜色 */
+	--theme-child-head-back-color:#D4D7E2;
+	/* 下方固定的按钮条背景色 */
+	--theme-bottom-options-back: #fff;
+	/* 下方固定的按钮条阴影 */
+	--theme-bottom-options-shadow: 0px 2px 10px 0px rgba(174, 172, 172, 0.8);
+	/* 提示板背景色 */
+	--theme-tips-back-color:#F2F2F5;
+
+	/* input框背景色 */
+	--theme-input-border-color: #D1D4E1;
+	/* input框背景色 */
+	--theme-input-back-color: #fff;
+	/* input框默认文字颜色 */
+	--theme-input-prl-color: #BFC6CC;
+	/* input框边框色-disabled 存在hasClss时 */
+	--theme-input-dis-border-color: #ececec;
+	/* input框背景色-disabled */
+	--theme-input-dis-back-color: #ececec;
+	/* input框默认文字颜色-disabled */
+	--theme-input-dis-text-color: #747474;
+
+	/* 表格选中背景色 */
+	--theme-table-select-back-color: #C7C7D4;
+	/* 表格td背景色 */
+	--theme-table-td-back-color: #F2F2F5;
+	/* 表格边框色 */
+	--theme-table-border-color: #B5BBC4;
+	/* 表格th背景色 */
+	--theme-table-th-back-color: #E3E4ED;
+	/* 表格选中状态下input框边框色 */
+	--theme-table-select-input-border-color: #fff;
+
+	/* 折叠框-头部背景色 */
+	--theme-collapse-head-back: #F2F2F5;
+
+	/* 进度条默认背景色 */
+	--theme-progress-bar—outer-back: #8E9BAF;
+
+	/* 主题按钮背景色 */
+	--theme-btn-bg-color: #2F8FFD;
+	/* 主题按钮字体色 */
+	--theme-btn-text-color: #F9F9F9;
+
+	/* 主题按钮-二级操作按钮 背景色 */
+	--theme-btn-two-bg-color: #1BC5CA;
+	/* 主题按钮-二级操作按钮 字体色 */
+	--theme-btn-two-text-color: #fff;
+
+	/* 白色背景下按钮样式 - 默认按钮2 边框色*/
+	--theme-btn-defa2-border-color: #D4D7E3;
+	/* 白色背景下按钮样式 - 默认按钮2 文字颜色*/
+	--theme-btn-defa2-text-color: #333;
+
+	/* 无内容 文字颜色*/
+	--theme-no-data-text-color: #8291A9;
+
+	/* 页面背景色 */
+	--theme-html-back-color: #EBECF1;
+	/* 主盒子背景色 */
+	--theme-card-main-color: #FFFFFF;
+	/* 文字主色 */
+	--theme-text-main-color: #333333;
+	/* 描述项-标题色 */
+	--theme-info-title-color: #666666;
+	/* 描述项-描述内容色 */
+	--theme-info-desc-color: #333333;
+	/* 描述项-二级描述内容色 */
+	--theme-info-desc-two-color: #989EAB;
+	/* 二级盒子-背景色 */
+	--theme-card-two-color: #F2F2F5;
+	/* 三级盒子-背景色 */
+	--theme-card-three-color: #E3E4ED;
+	/* 三级盒子-边框色 */
+	--theme-card-three-border-color: #E3E4ED;
+
+	/* 圆形图标字体颜色 */
+	--theme-icon-rote-color:#fff;
+	/* 圆形图标背景色 */
+	--theme-icon-rote-back: #D4D7E2;
+	/* 时间轴线条背景色 */
+	--theme-time-axis-line-back: #D4D7E2;
+	/* 时间轴圆点背景色 */
+	--theme-time-axis-point-back: #D8D8D8;
+	/* 时间轴圆点边框色 */
+	--theme-time-axis-point-border: rgba(255, 255, 255, 0.54);
+
+	/* 自定义tabs组件背景色 */
+	--theme-edn-tabs-back: #F7F7F9;
+	/* 自定义tabs组件边框色 */
+	--theme-edn-tabs-border: #D4D7E2;
+	/* 自定义tabs组件文字色 */
+	--theme-edn-tabs-color: #999999;
+
+	/* tooltip组件文字色 */
+	--theme-tooltip-color: #333333;
+}

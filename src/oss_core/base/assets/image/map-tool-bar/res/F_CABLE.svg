@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>FIBER</title>
+    <desc>Created with Sketch.</desc>
+    <g id="FIBER" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g id="round-bg" opacity="0" fill="#FFFFFF" stroke="#666666">
+                <rect id="Rectangle" x="0" y="0" width="64" height="64" rx="5"></rect>
+            </g>
+            <text id="Fiber" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="16.187" y="21">Fiber</tspan>
+            </text>
+        </g>
+        <path d="M26,37 L26,38.5 L21,38.5 L21,37 L26,37 Z M32,37 L32,38.5 L27,38.5 L27,37 L32,37 Z M38,37 L38,38.5 L33,38.5 L33,37 L38,37 Z M44,37 L44,38.5 L39,38.5 L39,37 L44,37 Z" id="形状结合备份-3" fill="#333333"></path>
+    </g>
+</svg>

@@ -1,0 +1,41 @@
+.topoContent{
+    height:100%;
+}
+.right_info{
+    width:100%;
+    height:100%;
+    .attr-container{
+        width: 100%;
+        height: calc(100% - 320px);
+    }
+    /deep/ .selection-tap {
+        width: 100%;
+        height: auto;
+    }
+
+    /deep/ .selection-body-cont{
+        width: 100%;
+        height: 270px;
+        display: flex;
+        .selection-body{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+        }
+    }
+
+    /deep/ .selection-footer{
+        width: 100%;
+        height: 30px;
+        text-align:right;
+    }
+
+    /deep/ .attr-container{
+        width: 100%;
+        height: 200px;
+    }
+}

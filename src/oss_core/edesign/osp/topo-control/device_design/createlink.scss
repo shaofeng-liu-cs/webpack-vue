@@ -1,0 +1,74 @@
+
+/deep/ .form-group {
+    > .form_row {
+        width: 100%;
+        padding: 2px 4px 9px 4px;
+        float: left;
+        > .form_name {
+            width: 204px;
+            height: 26px;
+            padding: 3.5px 4px 0px 4px;
+            padding-left: 4px;
+            padding-right: 4px;
+            float: left;
+        }
+        > .form_value {
+            width: 408px;
+            float: left;
+        }
+    }
+}
+.required-label:before {
+    content: '*';
+    color: #fb6e52;
+    vertical-align: middle;
+    margin-right: 3px;
+    line-height: 1;
+}
+.label-control {
+    font-weight: normal;
+    vertical-align: middle;
+}
+.tips {
+    padding-top: 10px;
+    color: red;
+    height: 30px;
+}
+.conn-model {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 5px;
+    span {
+        width: 204px;
+        height: 26px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 3.5px;
+    }
+}
+// 互换
+.form-huhuan {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-huhuan > .form-group {
+    margin-bottom: 0px;
+}
+.form-huhuan > .form-group > .form_row > .form_value {
+    width: 378px;
+}
+.form-huhuan-btn {
+    width: 30px;
+    font-size: 24px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-bottom: 9px;
+}

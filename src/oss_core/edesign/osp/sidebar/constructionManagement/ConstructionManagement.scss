@@ -1,0 +1,21 @@
+.construction-management-content {
+    width: 100%;
+    height: calc(100% - 40px);
+    padding-top: 10px;
+}
+.construction-tap {
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.construction-management-body {
+    height:calc(100% - 26px) ;
+    width: 100%;
+    .sidebar-body{
+        padding-top: 10px;
+    }
+}

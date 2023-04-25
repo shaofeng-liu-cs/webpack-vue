@@ -1,0 +1,119 @@
+.title {
+    color: #2d8cf0;
+    border-bottom: 1px solid #d7d7d7;
+    margin: 10px 5px 10px 5px;
+    font-size: 14px;
+}
+.construction-task{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.task-list {
+    width: 100%;
+    // max-height: calc(100% - 274px);
+    // min-height: 270px;
+    // height: auto;
+    height:calc(100% - 274px);
+    border-bottom: 1px solid #dfc9c9;
+    border-top: 1px solid #dfc9c9;
+    margin-top: 8px;
+}
+.task-content {
+    width: 100%;
+    border: solid 1px #dfc9c9;
+    border-radius: 10px;
+    padding: 6px 2px;
+    margin: 8px 0;
+    &:nth-child(1) {
+        margin-top: 0px;
+    }
+    &:nth-last-child(1) {
+        margin-bottom: 0px;
+    }
+    > div {
+        height: 25px;
+        padding: 0 4px 0 6px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: #575966;
+        &.task-child-foot {
+            width: 100%;
+            height: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px #E0E0E0 solid;
+            margin-top: 5px;
+            > div {
+                font-size: 12px;
+                font-family: Microsoft YaHei;
+                font-weight: 400;
+                color: #4477EE;
+                cursor: pointer;
+                &:nth-child(2) {
+                    font-weight: 400;
+                }
+            }
+        
+        }
+        > div {
+            height: 25px;
+            line-height: 25px;
+            &:nth-child(2) {
+                font-weight: 700;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        } 
+    }
+}
+
+
+
+.margin {
+    margin-top: 10px;
+}
+
+.row-btn-two {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 26px;
+    > div.btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: calc(50% - 5px);
+        height: 100%;
+    }
+}
+// 标题
+.sidebar-tab-title {
+    width: 100%;
+    margin-top:  0;
+}
+//底部统计样式
+.task-total {
+    width: 100%;
+    height: 200px;
+}
+
+.task-total-tap {
+    width: 100%;
+    height: 26px;
+}
+
+.task-total-grid {
+    width: 100%;
+    height: 170px;
+    margin-top: 4px;
+}

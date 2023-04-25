@@ -1,0 +1,109 @@
+.footer-left {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer-jwd {
+        background: #ffffff;
+        height: 20px;
+        padding: 0 5px;
+        line-height: 20px;
+        width: 155px;
+        white-space: nowrap;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 9999;
+    list-style: none;
+    height: 20px;
+    margin: 0;
+    width: auto;
+    display: flex;
+    .footer-left .map-icon-content {
+        border-radius: 0px;
+        background-color: #ffffff;
+        margin: 0;
+        background: none;
+        .map-icon {
+            font-size: 12px;
+            height: 20px;
+            width: auto;
+            padding: 0 15px 0 5px;
+            border-radius: 0;
+            color: #23272c;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: block;
+            line-height: 20px;
+            background: #ffffff;
+            &:hover {
+                background: #ffffff;
+            }
+            &.width {
+                // width: 150px;
+                background: none;
+                padding: 0;
+                > div {
+                    width: auto;
+                    max-width: 210px;
+                    padding: 0 15px 0 5px;
+                    display: inline-block;
+                    text-align: left;
+                    line-height: 20px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    background: #ffffff;
+                }
+            }
+        }
+
+        /deep/ .popover-wrap {
+            box-sizing: border-box;
+            display: flex;
+            > .map-icon {
+                width: 172px;
+            }
+        }
+        /deep/ .map-icon-line {
+            height: 16px;
+        }
+    }
+}
+
+// .scale {
+//     width: auto;
+//     height: auto;
+
+//     /deep/ .ol-scale-line {
+//         position: initial;
+//         background: #ffffff;
+//         height: 20px;
+//         border-radius: 0;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         .ol-scale-line-inner {
+//             border: 1px solid #23272c;
+//             border-top: none;
+//             color: #23272c;
+//         }
+//     }
+// }
+
+.scaleHide {
+    visibility: hidden;
+}
+.footer-scale {
+    width: 80px;
+    background-color: white;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

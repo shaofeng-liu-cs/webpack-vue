@@ -1,0 +1,156 @@
+#app {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    // background-image: url('/oss_core/edesign/assets/image/bgimg/background.png');
+    background: -webkit-linear-gradient(top, transparent 39px, #1993f65c 40px), -webkit-linear-gradient(left, transparent 39px, #1993f65c 40px);
+    background-size: 40px 40px;
+    background-color: rgb(4, 20, 39);
+}
+.app-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /deep/ .ui-dialog .modal-header {
+        justify-content: space-between;
+        padding: 10px 10px 0px 10px;
+        // background-color: #041427;
+    }
+    /deep/ .modal-header > button.close {
+        color: #1c79ed;
+    }
+
+    /deep/ .btn-close {
+        margin-left: 20px;
+    }
+
+    /deep/ .btn-primary {
+        width: 86px;
+        background: #35BCFF;
+    }
+
+    /deep/ .ui-dialog {
+        background-color: #041427;
+        border-radius: 10px;
+    }
+
+    /deep/ .drag-style > div.modal-header {
+        background-color: #041427;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    /deep/ .ui-dialog .modal-body {
+        background-color: #041427;
+    }
+
+    /deep/ .ui-dialog .modal-footer { 
+        background-color: #041427;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    /deep/ .btn-close {
+        background-color: #041427;
+    }
+
+    /deep/  .drag-style > div.modal-header {
+        color: #35BCFF;
+        
+    }
+
+    /deep/ .ui-dialog .modal-footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    /deep/ .modal-footer .btn+.btn{
+        background-color: #041427;
+        border: none;
+        color: #35BCFF;
+    }
+
+}
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.div-left {
+    width: 370px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+}
+
+.div-right {
+    width: 306px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+}
+
+// 公用样式透明模块
+.app-content {
+    /deep/ .home-panel {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background: rgba(48, 80, 101, 0.29);
+        border-radius: 10px;
+        &:nth-child(even) {
+            margin: 16px 0;
+        }
+        > .home-panel-heading {
+            width: 100%;
+            height: 36px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            > div {
+                &:nth-child(2) {
+                    flex-grow: 1;
+                }
+                > .home-panel-title {
+                    width: 100%;
+                    font-family: HelveticaNeue-Bold;
+                    font-size: 15px;
+                    color: #35bcff;
+                    line-height: 36px;
+                    padding: 0 10px;
+                    margin: 0;
+                }
+                > .view-all {
+                    width: auto;
+                    padding: 0 10px;
+                    font-size: 12px;
+                    font-family: 'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
+                    color: #1c79ed;
+                    line-height: 36px;
+                    cursor: pointer;
+                }
+            }
+            > .line {
+                width: 2px;
+                height: 16px;
+                background: #71d0ff;
+            }
+        }
+        > .home-panel-body {
+            width: 100%;
+            padding: 8px;
+            height: auto;
+        }
+    }
+}

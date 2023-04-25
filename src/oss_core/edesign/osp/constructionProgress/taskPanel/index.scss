@@ -1,0 +1,95 @@
+.task-collapse-con {
+	width: 100%;
+    height: 100%;
+    overflow-y: auto;
+	overflow-x: hidden;
+}
+.task-collapse{
+	width: 100%;
+  display: block;
+	border-radius: 2px;
+  border: 1px solid var(--theme-time-axis-line-back);
+  background-color: var(--theme-table-th-back-color);
+	margin-bottom: 10px;
+	.task-title{
+		height: 40px;
+		display: flex;
+		align-items: center;
+		margin: 0 6px;
+		i{
+			margin-right: 6px;
+		}
+		.title-text{
+			font-size: 13px;
+			font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+			font-weight: 500;
+			width: 150px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			// color: #FFFFFF;
+		}
+		.process-con{
+			flex: 1;
+			overflow: hidden;
+			padding:0 10px;
+			.text-con{
+			  display: flex;
+			  justify-content: space-between;
+			  margin-right: 14px;
+			  font-size: 12px;
+				.text-constructed {
+					margin-right: 10px;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					flex: 1;
+				}
+			
+				.text-total {
+					flex: 1;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+				}
+			}
+		}
+	}
+	.task-detail-list {
+		border-top: 1px solid var(--theme-time-axis-line-back);
+    	padding: 20px 24px;
+		font-size: 12px;
+		font-family: PingFangSC-Regular, PingFang SC;
+		font-weight: 400;
+		.task-detial-item{
+			display: flex;
+			margin: 10px 0;
+		}
+		.task-detail-item-left{
+			width: 160px;
+		}
+		.task-detail-item-right{
+			display: flex;
+			width: 380px;
+			min-width: 380px;
+			.text-planing{
+				margin-right: 10px;
+			}
+			.text-constructing{
+				margin-right: 10px;
+			}
+			.text-constructed{
+				margin-right: 10px;
+			}
+			.text-planing,.text-constructed,.text-constructing{
+				flex:1;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+		}
+	}
+	.white{
+		// color: white;
+	}
+}

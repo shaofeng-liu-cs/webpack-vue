@@ -1,0 +1,111 @@
+.surface-draw-type {
+  width: 100%;
+  // height: 400px;
+  border-radius: 8px;
+  background-color: #e7edfc;
+  .single-type-title {
+    color: #2d8cf0;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .single-type-body {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .single-type-des {
+      display: flex;
+      width: 48%;
+      margin-bottom: 10px;
+      .shape-icon {
+        width: 30px;
+        height: 30px;
+        color: #505050;
+        background-color: #f9f9f9;
+        font-size: 14px;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      .type-shape {
+        line-height: 30px;
+        margin-left: 5px;
+        font-size: 12px;
+        font-weight: 400;
+      }
+      .shape-icon:hover,
+      .shape-icon.active {
+        background: #4477ee;
+        font-size: 18px;
+        color: #fff;
+      }
+      .shape-icon.active{
+        font-size: 14px;
+      }
+    }
+  }
+}
+.surface-action {
+  margin: 10px 0;
+  display: flex;
+  height: 32px;
+  justify-content: space-between;
+  .surface-tips {
+    line-height: 32px;
+    background-color: #e7edfc;
+    border-radius: 5px;
+    width: 80%;
+    padding-left: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    .info-icon {
+      border-radius: 8px;
+      margin: 8px 0;
+      background-color: #4477ee;
+      color: #fff;
+    }
+  }
+  .surface-save {
+    height: 32px;
+    margin: 0;
+    width: 18%;
+    font-size: 14px;
+  }
+}
+.auto-identify {
+  .identify-tips {
+    margin: 10px 0;
+  }
+  .mode-btn {
+    margin: 10px 0;
+  }
+  .identify-info {
+    width: 100%;
+    min-height: 100px;
+    max-height: 150px;
+    background-color: #e7edfc;
+    border-radius: 8px;
+    .identify-info-title {
+      padding: 10px;
+      height: 32px;
+      font-size: 12px;
+      font-weight: 500;
+      color: #333333;
+      line-height: 12px;
+    }
+    .identify-info-content {
+      max-height: 120px;
+      overflow: auto;
+      .identify-info-content-single {
+        margin: 0 10px 10px;
+        height: 12px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #333333;
+        line-height: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>OCC</title>
+    <desc>Created with Sketch.</desc>
+    <g id="OCC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OOC">
+            <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="64" height="64"></rect>
+            <text id="OCC" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="17.072" y="21">OCC</tspan>
+            </text>
+            <path d="M43,32 L43,54 L21,54 L21,32 L43,32 Z M22.8333333,33.8333333 L22.8333333,52.1666667 L32,43 L22.8333333,33.8333333 Z M41.1666667,33.8333333 L32,43 L41.1666667,52.1666667 L41.1666667,33.8333333 Z" id="形状结合备份" fill="#333333"></path>
+        </g>
+    </g>
+</svg>

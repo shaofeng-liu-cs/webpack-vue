@@ -1,0 +1,237 @@
+.projectManageBox{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	color:var(--theme-text-main-color);
+	.m-l{
+		margin-left: 10px;
+	}
+	button{
+		height: 28px;
+		display: flex;
+		align-items: center;
+	}
+	.advancedSearchContent {
+		margin-bottom: 10px;
+		width: 100%;
+		min-height: 60px;
+		background-color: var(--theme-card-main-color);
+		.searchContent {
+			padding: 15px;
+			.searchItem{
+				&.m-l{
+					margin-left: 20px;
+				}
+				.searchInput2 {
+					width: 200px;
+					input {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.searchItem {
+		display: inline-block;
+		.itemContent{
+			display: flex;
+			align-items: center;
+			.searchLabel {
+				margin-right: 6px;
+			}
+			
+			.searchInput {
+				flex:1;
+				input{
+					width: 100%;
+				}
+			}
+		}
+		
+	}
+	.headFilter{
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+		padding: 10px;
+		background-color: var(--theme-card-main-color);
+	}
+	.projectList{
+		flex:1;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		overflow-y: auto;
+		align-content: flex-start;
+		padding: 10px;
+		.projectItem{
+			flex:1;
+			min-width: 18%;
+			margin-right: 15px;
+			margin-bottom: 10px;
+			cursor: pointer;
+			border-radius: 5px;
+			// display: flex;
+			// flex-direction: column;
+			height: 300px;
+			&.isHide{
+				visibility: hidden;
+			}
+			&:nth-of-type(5n){
+				margin-right: 0;
+			}
+			.project-item-img{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				position: relative;
+				border-radius: 5px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding-bottom: 67px;
+				.backimg{
+					width: 100%;
+					height: auto;
+				}
+			}
+			.projectItemContent{
+				position: absolute;
+				bottom:0;
+				left:0;
+				// background-color: rgba(0,0,0,.5);
+				background-color: var(--theme-card-main-color);
+				// color:#fff;
+				width:100%;
+				height: 67px;
+				border-radius:  0 0 5px 5px;
+				padding: 0 10px;
+			}
+			.footer-desc{
+				display: flex;
+				justify-content: space-between;
+				.region{
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+				}
+				.desc-label{
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+				}
+			}
+			.itContentTitle{
+				display: flex;
+				height: 37px;
+				justify-content: space-between;
+				align-items: center;
+				.leftTitle {
+					flex:1;
+					display: flex;
+					align-items: center;
+					overflow: hidden;
+					.proIcon {
+						font-size: 30px;
+						margin-right: 10px;
+					}
+					.proTitle {
+						font-size: 16px;
+						font-weight: bold;
+						flex: 1;
+						text-overflow: ellipsis;
+						overflow: hidden;
+						white-space: nowrap;
+					}
+				}
+				.itConentOptions {
+					
+					margin-left: 15px;
+				}
+				
+			}
+			.itContentDesc{
+				margin-top: 10px;
+				font-size: 14px;
+				display:flex;
+				justify-content: space-between;
+				.descSpanIt{
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					i{
+						margin-right: 3px;
+					}
+				}
+				
+			}
+			
+			&:hover {
+				box-shadow: var(--theme-bg-box-shadow);
+				
+			}
+		}
+
+	}
+	.paginationBox{
+		text-align: right;
+		padding-top: 15px;
+	}
+}
+
+
+
+
+
+.selectProcessTemplateBox{
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	.templateItem{
+		width: 30%;
+		margin-right:3%;
+		cursor: pointer;
+		background-color: var(--theme-card-two-color);
+		border:1px solid var(--theme-card-two-color);
+		border-radius: 5px;
+		padding:20px;
+		display: flex;
+		flex-direction: column;
+		&:last-child{
+			margin-right: 0;
+		}
+		&:hover{
+			opacity: .7;
+		}
+		&.active{
+			border-color: var(--theme-btn-bg-color);
+		}
+		&.disabled{
+			cursor: no-drop;
+			&:hover {
+					opacity: 1;
+				}
+		}
+		.templateTitle{
+			font-size: 14px;
+			font-weight: 500;
+			margin-bottom: 20px;
+		}
+		.templateDesc{
+			color:var(--theme-info-desc-two-color);
+			font-size: 12px;
+			margin-bottom: 6px;
+			line-height: 26px;
+			flex:1;
+		}
+		.templateImg{
+			height: 200px;
+			text-align: center;
+			img{
+				max-width: 100%;
+				max-height: 100%;
+			}
+		}
+	}
+}

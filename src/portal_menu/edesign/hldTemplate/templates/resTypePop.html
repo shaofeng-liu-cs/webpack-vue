@@ -1,0 +1,39 @@
+<div class="modal-header">
+    <h4 class="modal-title" id="addAttr">{{NEW_RESOUCE_TYPE}}</h4>
+    <h4 class="modal-title" id="modAttr">{{MOD_RESOUCE_TYPE}}</h4>
+</div>
+<div class="modal-body">
+    <form class="form" id="formAttrEdnRes">
+        <div class="panel-body">
+            <div class="col-md-6">
+                <div class="form-group required" id="divActName">
+                    <label class="control-label"> {{ACTION_NAME}} </label>
+                    <input type="text" name="ACTION_NAME" class="form-control txt" id="inputActName" data-rule="required;length[~40]" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group required" id="divActType">
+                    <label class="control-label"> {{ACTION_TYPE}} </label>
+                    <input type="text" name="ACTION_TYPE" class="form-control txt" id="comboActType" data-rule="required;" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group required" id="divSrcType">
+                    <label class="control-label"> {{SOURCE_TYPE}} </label>
+                    <input type="text" name="SOURCE_TYPE" class="form-control txt" id="comboSrcType" data-rule="required;" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group required" id="divToType">
+                    <label class="control-label"> {{TO_TYPE}} </label>
+                    <input type="text" name="TO_TYPE" class="form-control txt" id="comboToType" data-rule="required" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="modal-footer">
+    <button class="btn btn_minwidth btn-primary" id="btnLayActOk" title="{{OPB_OK}}">{{OPB_OK}}</button>
+    <button class="btn btn_minwidth btn-default" id="btnLayActCancel" title="{{OPB_CANCEL}}">{{OPB_CANCEL}}</button>
+</div>

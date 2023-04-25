@@ -1,0 +1,164 @@
+$azListWidth: 250px;
+$azListItemBorder: 3px solid #d7d7d7;
+$azListItemPadding: 5px 5px 5px 10px;
+.bind-AZ {
+    height: 300px;
+    width: 100%;
+
+    .bind-AZ-main {
+        height: 100%;
+        width: 100%;
+        display: flex;
+
+        .bind-AZ-main-list {
+            width: 250px;
+            height: 300px;
+            overflow: hidden;
+            overflow-y: auto;
+
+            .bind-AZ-main-list-body-item {
+                border-bottom: 1px solid #d7d7d7;
+                display: flex;
+                align-items: center;
+                font-size: 10px;
+                line-height: 15px;
+                cursor: pointer;
+
+                & > img {
+                    margin-right: 30px;
+                    max-width: 26px;
+                    max-height: 26px;
+                }
+
+                & > span {
+                    max-width: 160px;
+                    /* 内容过长显示成省略号（内容显示为一行） */
+                    white-space: nowrap; /*设置不换行*/
+                    overflow: hidden; /*设置隐藏*/
+                    text-overflow: ellipsis; /*设置隐藏部分为省略号*/
+                }
+            }
+
+            .bind-AZ-main-list-body-item:hover {
+                background-color: #d7d7d7;
+            }
+        }
+
+        .bind-AZ-main-content {
+            width: 100%;
+            margin-left: 30px;
+
+            .bind-AZ-main-content-success {
+                width: 100%;
+                display: flex;
+
+                .a-point-content {
+                    width: $azListWidth;
+
+
+                    .a-point-content-title {
+                        width: $azListWidth;
+                        padding: $azListItemPadding;
+                        border: $azListItemBorder;
+                        text-align: center;
+                        font-weight: bold;
+                    }
+
+                    .a-point-content-list {
+                        width: $azListWidth;
+                        height: 270px;
+                        overflow: hidden;
+                        overflow-y: auto;
+
+                        .a-point-content-list-item {
+                            padding: $azListItemPadding;
+                            display: flex;
+                            align-items: center;
+                            border: $azListItemBorder;
+                            border-top: none;
+                            width: $azListWidth;
+
+
+                            & > span {
+                                max-width: 200px;
+                                margin-left: 10px;
+                                font-size: 10px;
+                                /* 内容过长显示成省略号（内容显示为一行） */
+                                white-space: nowrap; /*设置不换行*/
+                                overflow:hidden ; /*设置隐藏*/
+                                text-overflow: ellipsis; /*设置隐藏部分为省略号*/
+                            }
+                        }
+                    }
+                }
+
+                .switch-btn-container {
+                    height: 300px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+
+                    & > button {
+                        border: none;
+                        max-height: 40px;
+                        padding: 10px;
+                        display: flex;
+                        margin: 5px;
+                        align-items: center;
+                        border-radius: 8px;
+
+                        & > span {
+                            font-size: 24px;
+                        }
+                    }
+                }
+
+                .z-point-content {
+                    width: $azListWidth;
+
+                    .z-point-content-title {
+                        width: $azListWidth;
+                        padding: $azListItemPadding;
+                        border: $azListItemBorder;
+                        text-align: center;
+                        font-weight: bold;
+                    }
+
+                    .z-point-content-list {
+                        width: $azListWidth;
+                        height: 270px;
+                        overflow: hidden;
+                        overflow-y: auto;
+
+                        .z-point-content-list-item {
+                            padding: $azListItemPadding;
+                            display: flex;
+                            align-items: center;
+                            border: $azListItemBorder;
+                            border-top: none;
+                            width: $azListWidth;
+
+                            & > span {
+                                max-width: 200px;
+                                margin-left: 10px;
+                                font-size: 10px;
+                                /* 内容过长显示成省略号（内容显示为一行） */
+                                white-space: nowrap; /*设置不换行*/
+                                overflow: hidden; /*设置隐藏*/
+                                text-overflow: ellipsis; /*设置隐藏部分为省略号*/
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bind-AZ-main-content-failed {
+
+            }
+        }
+    }
+
+    .bind-AZ-footer {
+
+    }
+}

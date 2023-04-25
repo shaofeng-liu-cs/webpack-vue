@@ -1,0 +1,131 @@
+<div class="modal-header">
+    <h4 class="modal-title">{{POP_TITLE}}</h4>
+</div>
+<div class="modal-body gis-v9">
+    <form class="form" id="formAttrEdnRes">
+        <div class="z-box">
+            <div class="z-title">{{EDN_FEATURE_TITLE_ATTR_BASIC}}</div>
+            <div class="panel-body">
+                <div class="col-md-6">
+                    <div class="form-group required" id="divFeatureAttrNameEdn">
+                        <label class="control-label"> {{EDN_FEATURE_ATTR_NAME}} </label>
+                        <input type="text" name="ATTR_NAME" class="form-control txt" id="comboFeatureAttrNameEdn" data-rule="required;length[~40]" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group required" id="divFeatureAttrDescEdn">
+                        <label class="control-label"> {{EDN_FEATURE_ATTR_DESC}} </label>
+                        <input type="text" name="ATTR_DESC" class="form-control txt" id="inputFeatureAttrDescEdn" data-rule="required;length[~200]" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group required" id="divDataTypeAttrEdn">
+                        <label class="control-label"> {{EDN_FEATURE_DATA_TYPE}} </label>
+                        <input type="text" name="DATA_TYPE" class="form-control" id="comboDataTypeAttrEdn" data-rule="required" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group" id="divAttrLengthEdn">
+                        <label class="control-label"> {{EDN_FEATURE_DATA_LENGTH}} </label>
+                        <input type="text" name="DATA_LEN" class="form-control txt" id="inputAttrLengthEdn" data-rule="integer;length[~4]" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group" id="divPrecisionAttrEdn">
+                        <label class="control-label"> {{EDN_FEATURE_PRECISION}} </label>
+                        <input type="text" name="PRECISION" class="form-control txt" id="inputPrecisionAttrEdn" data-rule="integer;range[1~99]" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group" id="divScaleAttrEdn">
+                        <label class="control-label"> {{EDN_FEATURE_SCALE}} </label>
+                        <input type="text" name="SCALE" class="form-control txt" id="inputScaleAttrEdn" data-rule="integer;range[0~99]" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group required" id="divExpFlagAttrEdn">
+                        <label class="control-label"> {{EDN_FEATURE_EXP_FLAG_DESC}} </label>
+                        <input type="text" name="EXP_FLAG_DESC" class="form-control" id="comboExpFlagAttrEdn" data-rule="required" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group" id="divInitValueAttrEdn">
+                        <label class="control-label"> {{EDN_FEATURE_INIT_VALUE}} </label>
+                        <input type="text" name="INIT_VALUE" class="form-control txt" id="inputInitValueAttrEdn" data-rule="length[~80]" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group" id="divResAttrCodeEdn">
+                        <label class="control-label"> {{EDN_FEATURE_RES_ATTR_CODE}} </label>
+                        <input type="text" name="RES_ATTR_CODE" class="form-control txt" id="inputResAttrCodeEdn" data-rule="length[~32]" />
+                    </div>
+                </div>
+                <div class="col-md-6 attr-checkbox max-height">
+                    <div class="form-group checkbox-inline">
+                        <input type="checkbox" name="IS_NULL" id="checkIsNullableAttrEndRes" class="cek" checked="checked" />{{EDN_FEATURE_IS_NULL}}
+                    </div>
+                </div>
+                <div class="col-md-6 attr-checkbox">
+                    <div class="form-group checkbox-inline">
+                        <input type="checkbox" name="IS_BATCH" id="checkIfBatchAttrEndRes" class="cek" checked="checked" />{{EDN_FEATURE_IF_BATCH}}
+                    </div>
+                </div>
+                <div class="col-md-6 attr-checkbox">
+                    <div class="form-group checkbox-inline">
+                        <input type="checkbox" name="IS_HLD_TEMPLATE" id="checkIfHLDTemplate" class="cek" />{{EDN_FEATURE_IF_HLD_TEMPLATE}}
+                    </div>
+                </div>
+                <div class="col-md-6 attr-checkbox">
+                    <div class="form-group checkbox-inline">
+                        <input type="checkbox" name="IS_QUICK_INPUT" id="checkQuickInput" class="cek" />{{EDN_FEATURE_QUICK_INPUT}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="z-box">
+            <div class="z-title">{{EDN_FEATURE_TITLE_ATTR_DISPLAY}}</div>
+            <div class="panel-body">
+                <div class="col-md-6">
+                    <div class="form-group required">
+                        <label class="control-label"> {{EDN_FEATURE_CONTROL_TYPE}} </label>
+                        <input type="text" name="CONTROL_TYPE" class="form-control" id="comboControlTypeAttrEdn" data-rule="required" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group required">
+                        <label class="control-label"> {{EDN_FEATURE_CONTROL_FLAG}} </label>
+                        <input type="text" name="CONTROL_FLAG" class="form-control" id="comboControlFlagAttrEdn" data-rule="required" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div>
+        <div id="divAttrValueListEdn" class="panel-body">
+            <div class="panel-heading col-md-12">
+                <h4 style="color: #00b2db;">{{EDN_FEATURE_ATTR_VAL_DEF}}</h4>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default" id="btnAddAttrValueEdn"><i class="fa fa-plus"></i> {{OPB_NEW}}</button>
+                <button class="btn btn-default" id="btnDelAttrValueEdn"><i class="fa fa-trash"></i> {{OPB_DELETE}}</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default" id="btnUpAttrValueEdn" title="{{BTN_UP}}">
+                    <i class="fa fa-arrow-up"></i>
+                </button>
+                <button class="btn btn-default" id="btnDownAttrValueEdn" title="{{BTN_DOWN}}">
+                    <i class="fa fa-arrow-down"></i>
+                </button>
+            </div>
+            <div>
+                <div class="grid" id="gridEnumEdnRes"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-footer">
+    <button class="btn btn_minwidth btn-primary" id="btnAttrValueOkEdn" title="{{OPB_OK}}">{{OPB_OK}}</button>
+    <button class="btn btn_minwidth btn-default" id="btnAttrValueCancelEdn" title="{{OPB_CANCEL}}">{{OPB_CANCEL}}</button>
+</div>

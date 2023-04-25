@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>PTN</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.301941803   0 0 0 0 0.296602588   0 0 0 0 0.296602588  0 0 0 0.177638767 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PTN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="椭圆形备份-7">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <circle stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" fill="SeaGreen" fill-rule="evenodd" cx="12" cy="12" r="11.5"></circle>
+        </g>
+        <path d="M5.93379534,6 L5.933,7.76 L12.6815246,7.7602772 L12.6817932,7.80191031 C14.6721216,8.08673876 16.202079,9.79849436 16.202079,11.8675907 C16.202079,12.9964476 15.7466762,14.0189394 15.0095668,14.76137 L18.8503396,14.7599385 L18.8508279,12.9999385 L21.458646,15.3469748 L18.8508279,17.6940111 L18.8503396,15.9329385 L12.6778052,15.9338398 C12.4873528,15.9609039 12.2926941,15.9749042 12.0947656,15.9749042 C9.82635896,15.9749042 7.98745208,14.1359973 7.98745208,11.8675907 C7.98745208,10.7173481 8.46027311,9.67753888 9.22215895,8.93191909 L5.933,8.933 L5.93379534,10.6940725 L3,8.34703627 L5.93379534,6 Z M12.0947656,8.93379534 C10.4744751,8.93379534 9.16097022,10.2473003 9.16097022,11.8675907 C9.16097022,13.3215553 10.2186487,14.5284859 11.6065753,14.7609522 L12.5839481,14.7607858 C13.9713865,14.5279106 15.0285609,13.3212088 15.0285609,11.8675907 C15.0285609,10.2473003 13.715056,8.93379534 12.0947656,8.93379534 Z" id="形状结合" fill="#FFFFFF"></path>
+    </g>
+</svg>

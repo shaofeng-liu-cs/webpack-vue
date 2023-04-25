@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>MGW</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MGW" transform="translate(1.000000, 1.000000)">
+            <g id="bg/round-FFFFFF" fill="#FFFFFF" stroke="#666666">
+                <rect id="Rectangle" x="0" y="0" width="64" height="64" rx="5"></rect>
+            </g>
+            <g id="mgw" transform="translate(15.000000, 25.000000)">
+                <rect id="矩形" fill="#19A5FF" fill-rule="nonzero" opacity="0" x="0" y="0" width="34" height="34"></rect>
+                <path d="M27.5,6 L32.5,10 L27.5,14 L27.5,11 L23.996,11 L23.038,12.198 L24.8612159,13.25 L24.8612159,21.75 L23.04,22.8 L24,24 L27.5,24 L27.5,21 L32.5,25 L27.5,29 L27.5,26 L23,26 L23,25.996 L21.264,23.826 L17.5,26 L13.735,23.826 L12,25.995 L12,26 L7,26 L7,29 L2,25 L7,21 L7,24 L11,24 L11.959,22.801 L10.1387841,21.75 L10.1387841,13.25 L11.962,12.197 L11.004,11 L7,11 L7,14 L2,10 L7,6 L7,9 L12,9 L13.738,11.172 L17.5,9 L21.262,11.172 L23,9 L27.5,9 L27.5,6 Z" id="形状结合" fill="#333333"></path>
+            </g>
+            <text font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="14.356" y="21">MGW</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

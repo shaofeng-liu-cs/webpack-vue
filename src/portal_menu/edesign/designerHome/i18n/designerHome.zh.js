@@ -1,0 +1,21 @@
+// eslint-disable-next-line no-undef
+define({
+  DESIGN_PREPARATION: '设计准备',
+  BEFORE_DESIGN_START: '在设计开始前，通过工勘获取所有信息',
+  INTEGRATION_WITH_ESURVEY: '集成工勘进行现场调查，获取建筑/用户信息来支持设计。',
+  HIGH_LEVEL_DESIGN: '高层设计',
+  DESIGN_DEVICE_AND_CABLE_ROUTE: '设计设备位置和电缆路线。',
+  SITE_POSITION: '1.站点位置最好是设计区域的中心。',
+  MATCH_ADDRESS_COVERAGE_NEEDS: '2.使用分光器来匹配地址覆盖需求。',
+  CONSIDER_THE_SUPPORT_FACILITIES: '3.考虑配套设施。',
+  LOW_LEVEL_DESIGN: '低层设计',
+  NETWORK_SIDE_TO_USER_SIDE: '设计从网络侧到用户侧的连接。',
+  FOR_L1_SPLITTER: '1.对于L1分光器，最好使用跳线连接，而不是方向连接，易于维护。',
+  CHECK_THE_OPTICAL_BUDGET: '2.连接完成后，需要检查光学预算。',
+  BUILDING_INTERNAL_DESIGN: '3.高层建筑需要进行建筑内部设计。',
+  DESIGN_EXPORT: '设计导出',
+  SHARE_DESIGN_RESULTS: '给其他人分享设计结果',
+  BOM_FOR_DESIGN: '1.用于设计验证的BOM。',
+  KML_FOR_SHARE_HLD: '2.KML用于与其他系统共享高层设计。',
+  CAD_FOR_CONSTRUCTIONS: '3.建筑CAD。',
+});

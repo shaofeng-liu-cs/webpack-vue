@@ -1,0 +1,46 @@
+.gray-line {
+    margin: 0;
+    background-color: #d7d7d76e;
+    height: 1px;
+}
+
+.reference-container {
+    display: flex;
+    flex-flow: column;
+    .select-title{
+        margin-top: 0;
+    }
+    & > .mode-btn {
+        padding: 10px 0;
+    }
+    & > .select-mode {
+        height: 70px;
+        flex-shrink: 0;
+    }
+    & > .grid-div {
+        flex-grow: 1;
+        width: 340px;
+        /deep/ .ui-jqgrid {
+            height: 100%;
+            .ui-jqgrid-view {
+                height: calc(100% - 39px);
+                .slimScrollDiv {
+                    height: calc(100% - 29px) !important;
+                    .ui-jqgrid-bdiv {
+                        height: 100% !important;
+                    }
+                }
+            }
+        }
+        /deep/ .ui-jqgrid-pager {
+            text-align: center;
+            .ui-pg-control {
+                float: inherit;
+            }
+        }
+    }
+    & > .ok-btn {
+        padding: 20px 0 10px 0;
+        text-align: right;
+    }
+}

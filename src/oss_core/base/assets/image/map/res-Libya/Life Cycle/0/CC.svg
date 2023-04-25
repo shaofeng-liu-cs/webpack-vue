@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>CC</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.301941803   0 0 0 0 0.296602588   0 0 0 0 0.296602588  0 0 0 0.177638767 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="CC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="椭圆形备份-3">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <circle stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" fill="orange" fill-rule="evenodd" cx="12" cy="12" r="11.5"></circle>
+        </g>
+        <path d="M17.5,8 L17.499,16 L17.5,16 L17.5,17 L6.5,17 L6.5,8 L17.5,8 Z M16.5,9 L7.5,9 L7.499,16 L16.499,16 L16.5,9 Z M7.5,10 L8.5,10 L8.5,15 L7.5,15 L7.5,10 Z M13.7866715,9.08264714 L12.930302,11.4883704 L14.50834,11.9505738 L11.2133285,14.9173529 L12.069698,12.5116296 L10.49166,12.0494262 L13.7866715,9.08264714 Z" id="形状结合" fill="#FFFFFF"></path>
+    </g>
+</svg>

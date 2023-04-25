@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>MANHOLE</title>
+    <desc>Created with Sketch.</desc>
+    <g id="MANHOLE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="COPPER">
+            <g id="round-bg" opacity="0" fill="#FFFFFF" stroke="#666666">
+                <rect id="Rectangle" x="0" y="0" width="64" height="64" rx="5"></rect>
+            </g>
+            <text id="Manhole" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="5.029" y="21">Manhole</tspan>
+            </text>
+            <path d="M28.8571429,29 L28.857,33.714 L35.142,33.714 L35.1428571,29 L38.2857143,29 L38.285,33.714 L43,33.7142857 L43,36.8571429 L38.285,36.857 L38.285,43.142 L43,43.1428571 L43,46.2857143 L38.285,46.285 L38.2857143,51 L35.1428571,51 L35.142,46.285 L28.857,46.285 L28.8571429,51 L25.7142857,51 L25.714,46.285 L21,46.2857143 L21,43.1428571 L25.714,43.142 L25.714,36.857 L21,36.8571429 L21,33.7142857 L25.714,33.714 L25.7142857,29 L28.8571429,29 Z M35.142,43.142 L35.142,36.857 L28.857,36.857 L28.857,43.142 L35.142,43.142 Z" id="形状结合备份-2" fill="#333333"></path>
+        </g>
+    </g>
+</svg>

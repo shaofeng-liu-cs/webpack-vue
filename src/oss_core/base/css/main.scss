@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.pointer {
+  cursor: pointer;
+}
+.box {
+  line-height: initial;
+  width: 100%;
+  height: 100%;
+  // position: absolute;
+  // left: 0;
+  // bottom: 0;
+  // top: 0;
+  // right: 0;
+  font-family: NunitoSans-Regular, NunitoSans;
+  font-size: 13px;
+  font-weight: 400;
+  .ol-scale-line {
+    bottom: 0;
+  }
+  /* button */
+  // /deep/ .btn-primary{
+  //     background: $theme-color;
+  // 	color: #FFF;
+  // }
+  /deep/ .btn {
+    min-width: 50px;
+  }
+  // ul
+  /deep/ ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  // 文字超出隐藏
+  /deep/ .text-over {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  /* 公用input样式 */
+  /deep/ input {
+    margin: 0;
+  }
+  // /deep/ input[type='checkbox'],
+  // /deep/ input[type='radio'] {
+  //   cursor: pointer;
+  //   position: relative;
+  //   width: 15px;
+  //   height: 15px;
+  //   font-size: 14px;
+  // }
+  // /deep/ input[type='checkbox']::after,
+  // /deep/ input[type='radio']::after {
+  //   position: absolute;
+  //   top: 0;
+  //   background-color: $theme-color;
+  //   color: #ffffff;
+  //   width: 15px;
+  //   height: 15px;
+  //   display: inline-block;
+  //   visibility: visible;
+  //   padding-left: 0px;
+  //   text-align: center;
+  //   border-radius: 3px;
+  // }
+  // /deep/ input[type='radio']::after {
+  //   border-radius: 50%;
+  // }
+  // /deep/ input[type='checkbox']:checked::after {
+  //   content: '\e9ca';
+  //   font-size: 14px;
+  //   font-family: 'icon_osp';
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   margin-top: 1px;
+  // }
+  // /deep/ input[type='radio']:checked::after {
+  //   content: '\e994';
+  //   font-size: 20px;
+  //   font-family: 'icon_osp';
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+  /* 公用动画样式 */
+  /deep/ .v9-transition {
+    transition: $transition;
+  }
+  /deep/ .rotate-one {
+    transform: rotate(0deg);
+  }
+  /deep/ .rotate-two {
+    transform: rotate(180deg);
+  }
+  /deep/ .width-hide {
+    width: 0;
+  }
+  /deep/ .left-hide {
+    left: 0;
+  }
+  /deep/ .border-hide {
+    border: 0;
+  }
+  // 清除fonticon top样式
+  /deep/ .glyphicon {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: initial;
+  }
+
+  // map 图标样式
+  /deep/ .map-icon {
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &.icon_osptuichuquanping {
+      font-size: 18px;
+    }
+    &.icon_ospquanping {
+      font-size: 18px;
+    }
+  }
+  /deep/ .map-icon:hover,
+  /deep/ .map-icon.active {
+    background: $theme-color;
+    font-size: 18px;
+    &.icon_osptuichuquanping {
+      font-size: 22px;
+    }
+    &.icon_ospquanping {
+      font-size: 22px;
+    }
+  }
+  /deep/ .map-icon-content {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: var(--theme-bg-color12);
+    margin: 0 2px 0 0;
+    border-radius: 18px;
+    .map-icon {
+      border-radius: 18px;
+    }
+  }
+  // /deep/ label{
+  //     height: 18px;
+  // }
+  /deep/ .map-icon-line {
+    width: 1px;
+    height: 24px;
+    background: #181818;
+  }
+  //兼容fish平台样式写法
+  /deep/ .search-group > input ~ .input-group-btn > .btn {
+    padding: 0 6px;
+  }
+  /deep/ .search-group > input ~ .input-group-btn > .btn.btn-primary {
+    background-color: $theme-color;
+    color: #ffffff;
+  }
+  /deep/ .search-group > input ~ .input-group-btn > .btn {
+    border: none;
+  }
+  /deep/ .ui-jqgrid-view .ui-jqgrid-htable {
+    .ui-th-column,
+    .ui-th-column-header {
+      background-color: #dfeffd;
+    }
+  }
+  /deep/.form-control[disabled],
+  /deep/.form-control[disabled] ~ .input-group-addon {
+    background-color: #f0f0f0;
+  }
+  //v9按比例宽度
+  /deep/.row-2 {
+    width: 50%;
+  }
+  /deep/.row-3 {
+    width: 33.33%;
+  }
+  //v9独有样式
+  /deep/ .dropdown-list > li,
+  /deep/ .ui-multiselect-results li {
+    padding: 3px 8px;
+  }
+  // V9必填样式
+  /deep/ .required > label:before {
+    content: '*';
+    color: red;
+    padding-right: 1.8px;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  // //v9表格高度自适应
+  // /deep/ .grid-height-auto {
+  //   display: flex;
+  //   flex-flow: column;
+  //   flex-grow: 1;
+  //   > .ui-jqgrid {
+  //     flex-grow: 1;
+  //     display: flex;
+  //     flex-flow: column;
+  //     > .ui-jqgrid-view {
+  //       display: flex;
+  //       flex-flow: column;
+  //       flex-grow: 1;
+  //       > .slimScrollDiv {
+  //         display: flex;
+  //         flex-flow: column;
+  //         flex-grow: 1;
+  //         > .ui-jqgrid-bdiv {
+  //           display: flex;
+  //           flex-flow: column;
+  //           flex-grow: 1;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // //v9表格宽度自适应
+  // /deep/ .grid-width-auto {
+  //   display: flex;
+  //   width: 100%;
+  //   .ui-jqgrid-hbox {
+  //     display: flex;
+  //     > .ui-jqgrid-htable {
+  //       flex-grow: 1;
+  //     }
+  //   }
+  //   .ui-jqgrid-bdiv > div {
+  //     display: flex;
+  //     // flex-flow: column;
+  //     // justify-content: center;
+  //     // align-items: center;
+  //     > .ui-jqgrid-btable {
+  //       flex-grow: 1;
+  //       // width: 100%;
+  //     }
+  //   }
+  //   .no-data-grid .ui-jqgrid-bdiv > div {
+  //     flex-flow: column;
+  //   }
+  // }
+
+  // /deep/ .grid-width-auto .no-data-grid .ui-jqgrid-bdiv > div {
+  //   flex-flow: column; //没数据时需要加上这个样式
+  // }
+
+  //v9 模块表单样式
+  /deep/ .panel-form-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    > div {
+      width: 50%;
+      height: auto;
+      padding: 5px 10px;
+      label {
+        font-weight: 400;
+      }
+    }
+  }
+
+  //v9 tap页签样式
+  /deep/ .v9-tap-head {
+    width: 100%;
+    display: flex;
+    height: 30px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+    > div {
+      width: auto;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      font-family: 'NunitoSans-Regular', 'Nunito Sans';
+      font-weight: 400;
+      font-style: normal;
+      color: #333333;
+      padding: 0 5px;
+      cursor: pointer;
+      margin: 0 5px;
+      border: 1px solid transparent;
+      &.active {
+        color: #4477ee;
+        border: 1px solid #e0e0e0;
+        border-bottom-color: #ffffff;
+        background: #ffffff;
+        margin-bottom: -1px;
+        &:hover {
+          border-bottom-color: #ffffff;
+        }
+      }
+      &:hover {
+        color: #4477ee;
+        border: 1px solid #e0e0e0;
+      }
+    }
+  }
+  /* 公用组件内小模块 */
+  /deep/ .title-panel {
+    width: 100%;
+    padding: 0 10px;
+    > h3 {
+      margin: 0;
+      font-size: 12px;
+      color: $theme-color;
+      width: 100%;
+      height: 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-bottom: 1px solid #d7d7d7;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    > div {
+      width: 100%;
+      display: flex;
+    }
+  }
+
+  // 表格样式调整
+  /deep/ .ui-jqgrid-view .ui-jqgrid-btable tr.jqgrow .jqgrid-rownum {
+    padding-left: initial;
+    background-color: #ffffff;
+  }
+
+  // 多选样式调整
+  /deep/ .ui-multiselect-inline {
+    min-height: 24px !important;
+  }
+
+  // 按钮占一行
+  /deep/ .row-btn {
+    width: 100%;
+    height: 26px;
+  }
+  // 除标题最外层左右内边距设10px
+  /deep/ .sidebar-body {
+    padding: 0 10px;
+  }
+
+  // 侧边栏每个页签的小标题
+  /deep/ .sidebar-tab-title {
+    color: #2d8cf0;
+    border-bottom: 1px solid #d7d7d7;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+  // 饿了么Radio 单选框宽度撑满自适应样式
+  /deep/ .label-grow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > .el-radio-button {
+      display: flex;
+      flex-grow: 1;
+      height: 100%;
+      align-items: center;
+      > span {
+        flex-grow: 1;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  /deep/ .btn-primary.disabled,
+  .btn-primary.disabled:focus {
+    color: inherit;
+  }
+  // 弹框按钮公共样式，覆盖工程的样式
+  /deep/ .ui-dialog .modal-footer {
+    border-top: none;
+    height: auto;
+  }
+
+  // 弹框内容的标题公用样式
+  /deep/ .content-label-title {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  // 弹框内容除去标题的公用样式
+  /deep/ .select-popup {
+    height: calc(100% - 30px);
+    margin-right: -15px;
+  }
+  // 单选框组设置成一行一个选项以及选项之间的距离
+  /deep/ .radio-select {
+    display: flex;
+    flex-direction: column;
+    .el-radio__original {
+      width: 0;
+    }
+    & .el-radio__label {
+      padding-left: 0px;
+      line-height: 18px;
+    }
+  }
+  /deep/ .grid-addbutton {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(71, 71, 238, 0.58);
+    cursor: pointer;
+    color: aliceblue;
+    z-index: 10;
+    &:hover {
+      background-color: #4747ee;
+    }
+    > span {
+      font-size: 30px;
+      padding-bottom: 5px;
+      padding-left: 0.3px;
+    }
+  }
+}

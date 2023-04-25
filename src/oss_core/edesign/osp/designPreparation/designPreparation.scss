@@ -1,0 +1,53 @@
+.design-preparation{
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding-bottom: 20px;
+  
+  .preparation-box {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 20px;
+    background-color: var(--theme-card-main-color);
+  }
+ 
+  .change-tab-text{
+    color:var(--theme-info-desc-two-color);
+  }
+  .change-tab-down{
+    .tab-dropdown-link{
+      padding:3px 10px;
+      background-color: var(--theme-btn-bg-color);
+      color:var(--theme-btn-text-color);
+      font-size: 12px;
+      margin-left: 15px;
+      border-radius: 2px;
+    }
+  }
+  .load-scheme-box{
+    margin-left: 30px;
+    .scheme-select{
+      margin-right: 10px;
+      width: 215px;
+    }
+  }
+
+  .preparation-content{
+    flex: 1;
+    overflow: hidden;
+  }
+  .footer-btns {
+    width: 100%;
+    height: 60px;
+    background: var(--theme-bottom-options-back);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+}

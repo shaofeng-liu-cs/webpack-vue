@@ -1,0 +1,36 @@
+<div class="row attrCopy" style="height: 100%">
+    <div class="col-md-3" style="height: 100%">
+        <div class="cs-block" style="height: 100%">
+            <div class="title no-padding" style="display: flex; align-items: center; padding-right: 8px">
+                <h3>{{RESOURCE_TYPES_NAME}}</h3>
+            </div>
+            <div class="input-group search-group" id="SearchAttr" style="display: flex; padding: 8px">
+                <input type="text" class="form-control" v-model="searchValue" id="searchValue"
+                    placeholder="{{RESOURCE_TYPES_NAME_PLACEHOLDER}}" @keyup.enter="search" />
+            </div>
+            <ul id="resourceTypeTree" class="ztree" style="height: calc(100% - 80px)"></ul>
+        </div>
+    </div>
+    <div class="col-md-5" style="height: 100%">
+        <div class="cs-block" style="height: 100%">
+            <div class="title no-padding">
+                <h3>{{TEMPLATE_LIST}}</h3>
+            </div>
+            <div class="control" style="display: flex; padding: 6px 8px">
+                <button type="button" class="btn btn-default" id="btnAddTemplate" title="{{OPB_NEW}}"><i
+                        class="fa fa-plus"></i> {{OPB_NEW}}</button>
+            </div>
+            <div id="templateListGrid" style="height: calc(100% - 80px); width: calc(100% - 16px); margin: 0px 8px">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4" style="height: 100%">
+        <div class="cs-block" style="height: 100%">
+            <div class="title no-padding">
+                <h3>{{ATTRIBUTE_RELATION}}</h3>
+            </div>
+            <div id="gridGISAttrRelation" style="height: calc(100% - 80px); width: calc(100% - 16px); margin: 8px">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+.projectWizardBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  .wizardHead {
+    background-color: #fff;
+    padding: 5px 10px;
+    /deep/ .step-description {
+      width: 85%;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+  }
+  .wizardBody {
+    flex: 1;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /deep/ .map-tools {
+      right: 20px;
+      &.right {
+        right: 20px;
+      }
+    }
+    /deep/ .menu-right-container {
+      display: none;
+    }
+  }
+  .ospdisable {
+    position: relative;
+    &:before {
+      content: '';
+      background-color: rgba(0, 0, 0, 0.2);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      top: 0;
+      left: 0;
+    }
+  }
+}

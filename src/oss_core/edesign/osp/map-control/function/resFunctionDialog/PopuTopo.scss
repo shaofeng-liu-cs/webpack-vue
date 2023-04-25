@@ -1,0 +1,39 @@
+.selection-content{
+    /deep/ .cs-block{
+        width: 100%;
+        height: 100%;
+    }
+    /deep/.modal-body {
+        width: 100%;
+        //height: calc(100% - 81px);
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        > .selection-body-cont {
+            width: 100%;
+            //height: calc(100% - 34px);
+            height: 100%;
+            display: flex;
+            .selection-body{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-start;
+                overflow: hidden;
+                // border: 1px solid #e0e0e0;
+                flex-grow: 1;
+                //padding: 5px 0 5px 5px;
+                > div {
+                    width: 100%;
+                    height: 100%;
+                    overflow: auto;
+                }
+            }
+
+            .noBorder {
+                border: 0px;
+            }
+        }
+    }
+}

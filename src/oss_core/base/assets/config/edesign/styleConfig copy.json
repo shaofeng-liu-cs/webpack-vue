@@ -1,0 +1,68 @@
+{
+  "AIR_WIRE": {
+    "geometryType": "geometryMultipolyline",
+    "lineWidth": 2.0,
+    "lineColor": "#000080"
+  },
+  "POLE": {
+    "geometryType": "geometryPoint",
+    "iconUrl": "oss_core/edesign/assets/image/map/res-png/hld_icon_27.png"
+  },
+  "MANHOLE": {
+    "geometryType": "geometryPoint",
+    "iconUrl": "oss_core/edesign/assets/image/map/res-png/hld_icon_27.png"
+  },
+  "ROUTE": {
+    "geometryType": "geometryMultipolyline",
+    "lineWidth": 1.0,
+    "lineColor": "#000C7B",
+    "statusTheme": [
+      {
+        "status": "C",
+        "statusName": "初使",
+        "lineWidth": 1.0,
+        "lineColor": "#000C7B"
+      },
+      {
+        "status": "SI",
+        "statusName": "工勘中",
+        "lineWidth": 1.0,
+        "lineColor": "#F08784"
+      },
+      {
+        "status": "SF",
+        "statusName": "工勘完成",
+        "lineWidth": 1.0,
+        "lineColor": "#75F94D"
+      },
+      {
+        "status": "CI",
+        "statusName": "铺缆中",
+        "lineWidth": 1.0,
+        "lineColor": "#73FBFD"
+      },
+      {
+        "status": "CF",
+        "statusName": "铺缆完成",
+        "lineWidth": 1.0,
+        "lineColor": "#75163F"
+      },
+      {
+        "status": "SD",
+        "statusName": "吹缆中",
+        "lineWidth": 1.0,
+        "lineColor": "#7E84F7"
+      }
+    ]
+  },
+  "F_CABLE": {
+    "geometryType": "geometryMultipolyline",
+    "lineWidth": 1.0,
+    "lineColor": "#0907C3"
+  },
+  "DUCT": {
+    "geometryType": "geometryMultipolyline",
+    "lineWidth": 1.0,
+    "lineColor": "#3A0603"
+  }
+}

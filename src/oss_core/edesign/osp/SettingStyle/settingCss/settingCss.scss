@@ -1,0 +1,71 @@
+.setting-css-box{
+	display: flex;
+	height: 100%;
+	.child-head-title{
+		margin-bottom: 20px;
+	}
+	/deep/ .setting-css-form{
+		flex:1;
+		.el-color-picker,.el-select{
+			width: 100%;
+			.el-color-picker__trigger,.el-input__inner{
+				width: 100%;
+			}
+		}
+	} 
+	/deep/ .el-form-item{
+		margin-bottom: 5px;
+	}
+
+	.form-item-div{
+		display: flex;
+		.form-span-item{
+			flex:1;
+			padding:0 10px;
+		}
+	}
+	.right-view-map-box{
+		width: 250px;
+		margin-left: 20px;
+		position: relative;
+		height: 100%;
+		border-radius: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-size: 100% auto;
+		padding-top: 25px;
+		overflow: hidden;
+		.show-box-title{
+			position: absolute;
+			width: 100%;
+			left: 0;
+			top: 0;
+			background-color: var(--theme-btn-bg-color);
+			color: var(--theme-btn-text-color);
+			text-align: center;
+			height: 25px;
+			line-height: 25px;
+		}
+		.show-box-border{
+			display: inline-block;
+			width: 180px;
+			height: 180px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			transform: scale(0.8);
+		}
+		.show-box-img-content{
+			width: 22px;
+		}
+		.show-box-line{
+			width: 60px;
+			border: 0;
+		}
+		.show-box-text{
+			position: relative;
+		}
+	}
+}

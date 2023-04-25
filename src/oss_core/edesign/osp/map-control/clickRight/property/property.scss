@@ -1,0 +1,283 @@
+.search-group {
+  display: flex;
+}
+
+.icon_ospsearch {
+  width: 40px;
+  height: 26px;
+  cursor: pointer;
+  background-color: #4477ee;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.search-close-icon {
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  left: 189px;
+  top: 3px;
+  color: #9d9c9c;
+}
+
+.icon_ospsave:before {
+  margin-right: 2px;
+}
+
+.grid-class {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  flex-flow: column;
+  // flex-flow: row;
+  // flex-grow: 1;
+  // min-height: 100px;
+  // width: 100%;
+  // overflow-x: auto;
+  // overflow-y: hidden;
+  /deep/ .v9-pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.tab-class {
+  line-height: 30px;
+  // margin-bottom: -3px;
+  display: flex;
+}
+
+.tabClass {
+  margin-right: 3px;
+  margin-bottom: 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+  color: grey;
+  font-size: 13px;
+  font-weight: 100;
+  height: 26px !important;
+  width: auto;
+  max-width: 200px;
+  min-width: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 4px;
+  flex-shrink: 0;
+
+  // &:first-child {
+  //     margin-left: 5px;
+
+  // }
+  &:hover {
+    border: 1px solid #4477ee;
+  }
+}
+
+.tabActive {
+  background: #4477ee;
+  color: #ffffff;
+}
+
+.label-list {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+  width: calc(100% - 155px);
+}
+.btn-list {
+  margin-left: auto;
+  display: flex;
+}
+
+.inverse {
+  margin-right: 8px;
+}
+.inverse,
+.center-sel {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topLabel {
+  width: 20px;
+  background-color: #ddd;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  height: 26px !important;
+}
+.propertyBottom {
+  display: flex;
+}
+
+.propertyBottom /deep/ .input-group {
+  width: 100px;
+
+  &:first-child {
+    width: 150px;
+  }
+}
+
+.propertyTop {
+  display: contents;
+}
+
+.bodyy {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  // margin-top: -2px;
+  // padding: 0 4px
+}
+
+.action-div {
+  display: flex;
+  align-items: center;
+  padding: 0px 5px;
+  height: 36px;
+  overflow-x: auto;
+  .btn {
+    height: 26px;
+    font-size: 13px;
+  }
+  .update-div {
+    display: flex;
+    flex-grow: 1;
+    border: 0px solid;
+    width: 640px;
+    /deep/ .combobox-content {
+      width: 150px;
+    }
+  }
+  .map-control-div {
+    display: flex;
+    justify-content: flex-end;
+    .select-mode {
+      width: 300px;
+      flex-shrink: 0;
+    }
+    .cancelGeo-btn {
+      margin-left: 8px;
+    }
+  }
+}
+
+.filter-form {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  flex-grow: 1;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.filter-div {
+  display: flex;
+
+  .icon_osploudou {
+    font-size: 13px;
+    // margin-left: 10px;
+    margin-right: 10px;
+    height: 26px;
+  }
+
+  .filter-flag {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .filter-combox {
+    width: 100px;
+  }
+
+  .filter-input {
+    flex-grow: 1;
+  }
+
+  .filter-btn {
+    font-size: 13px;
+    height: 25px;
+    margin: 0px 8px;
+  }
+}
+
+.cancelFilter-btn {
+  height: 26px;
+}
+
+.tab-class /deep/ ::-webkit-scrollbar-thumb {
+  background-color: #2a50db26 !important;
+  border-radius: 3px;
+}
+
+.tab-class /deep/ ::-webkit-scrollbar-track {
+  border-radius: 3px;
+}
+
+.update-all,
+.update-sel,
+.update {
+  margin-left: 8px;
+}
+
+// // 宽度自适应
+// .grid-class /deep/ .ui-jqgrid-hbox {
+//   display: flex;
+//   > .ui-jqgrid-htable {
+//     flex-grow: 1;
+//   }
+// }
+
+// .grid-class /deep/ .ui-jqgrid-bdiv > div {
+//   display: flex;
+//   // flex-flow: column;
+//   // justify-content: center;
+//   // align-items: center;
+//   > .ui-jqgrid-btable {
+//     flex-grow: 1;
+//     // width: 100%;
+//   }
+// }
+// .grid-class /deep/ .no-data-grid .ui-jqgrid-bdiv > div {
+//   flex-flow: column;
+// }
+
+// 底部布局
+.footer {
+  width: 100%;
+  height: 36px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+
+// 编辑行样式
+.edit-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  > button {
+    margin-right: 5px;
+  }
+}
+
+.no-shrink {
+  flex-shrink: 0;
+}

@@ -1,0 +1,98 @@
+.design-scheme-box{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	
+	.elements-box{
+		display: flex;
+		flex:1;
+		flex-direction: column;
+		overflow: hidden;
+		padding:20px 10px 10px;
+		.image-btn {
+				width: 32px;
+			}
+		.options {
+			margin-bottom: 10px;
+		}
+		.bt-table-config{
+			flex:1;
+			display: flex;
+			overflow: hidden;
+			.left-table-box {
+				flex: 1;
+				overflow: hidden;
+			}
+
+			.right-config-box {
+				width: 300px;
+				margin-left: 10px;
+				display: flex;
+				flex-direction: column;
+				background-color: var(--theme-table-td-back-color);
+				border:1px solid var(--theme-table-border-color);
+				.config-title {
+					height: 36px;
+					line-height: 36px;
+					padding: 0 10px;
+					background-color: var(--theme-table-th-back-color);
+					color: var(--theme-text-main-color);
+					font-weight: bold;
+				}
+
+				.config-form-content {
+					padding: 10px 20px;
+					flex: 1;
+					overflow-y: auto;
+					.hld-item-attr-setting{
+						margin-bottom: 10px;
+						.attr-name{
+							color: var(--theme-text-main-color);
+							font-size: 14px;
+							margin-bottom: 3px;
+						}
+						.attr-input{
+							input,select{
+								width:100%;
+								height: 26px;
+								border-radius: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		
+	}
+	.grids-checks {
+		display: flex;
+		align-items: center;
+		padding:20px 10px 10px;
+		/deep/ .el-checkbox__label{
+			font-size: 12px;
+		}
+	}
+}
+
+.select-design-elements-modal{
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	.search-head{
+		span{
+			width: 220px;
+			&:last-child{
+				margin-left: 20px;
+			}
+		}
+	}
+	.modal-table-content{
+		flex:1;
+		margin-top: 15px;
+		overflow: hidden;
+		.image-btn{
+			width: 32px;
+		}
+	}
+}

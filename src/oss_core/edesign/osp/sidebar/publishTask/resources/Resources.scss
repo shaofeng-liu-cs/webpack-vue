@@ -1,0 +1,16 @@
+.resources-grid {
+    width: 100%;
+    height: 100%;
+    /deep/ .icon_ospcheck-circle1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #2bb155;
+    }
+    /deep/ .icon_ospreloadtime {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffbd21;
+    }
+}

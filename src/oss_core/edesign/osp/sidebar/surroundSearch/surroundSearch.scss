@@ -1,0 +1,119 @@
+
+.surround-search {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 20px;
+    .school-list {
+        flex-grow: 1;
+        display: flex;
+        flex-flow: column;
+        // .grid-class {
+        //     // flex-grow: 1;
+        // }
+    }
+}
+.title {
+    color: #2d8cf0;
+    border-bottom: 1px solid #d7d7d7;
+    margin: 10px 5px 20px 5px;
+    font-size: 14px;
+}
+
+.a-upload {
+    position: relative;
+    display: inline-block;
+    // background: #D0EEFF;
+    // border: 1px solid #99D3F5;
+    // border-radius: 4px;
+    // padding: 4px 12px;
+    // overflow: hidden;
+    // color: #1E88C7;
+    // text-decoration: none;
+    text-indent: 0;
+    // line-height: 20px;
+
+    border: 1px solid #4477ee;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #4477ee;
+    padding: 4px 12px;
+    margin-left: 15px;
+    width: 100px;
+    text-align: center;
+
+}
+.a-upload input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.a-upload:hover {
+    text-decoration: none;
+    background-color: #3B6ADE;
+    color: #fff;
+    border-color: #0a77d2;
+}
+
+.grid-class {
+    margin-top: 20px;
+    margin-left: 5px;
+    flex-grow: 1;
+    width: 350px !important;
+    /deep/ .ui-jqgrid-view {
+        .ui-jqgrid-hdiv, .slimScrollDiv, .ui-jqgrid-bdiv {
+            width: 350px !important;
+        }
+        height: calc(100% - 39px);
+        .slimScrollDiv {
+            height: calc(100% - 29px) !important;
+            .ui-jqgrid-bdiv {
+                // height: calc(100vh - 580px) !important;
+                & > div {
+                    overflow-x: hidden;
+                }
+            }
+            .slimScrollBarY {
+                background: rgba(78, 67, 59, 0.76) !important;
+            }
+        }
+    }
+}
+.sprint /deep/ .ui-jqgrid-bdiv {
+    height: calc(100vh - 644px) !important;
+}
+.schema /deep/ .ui-jqgrid-bdiv {
+    height: calc(100vh - 567px) !important;
+}
+
+.search-par-div {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search-label {
+    margin-right: 20px;
+    width: 76px;
+    text-align: right;
+    font-size: 13px;
+}
+
+.search-par-content, .layer /deep/ .input-group  {
+    flex-grow: 1;
+}
+.input {
+    width: auto;
+}
+
+.btn-div {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.export {
+    width: 110px;
+}

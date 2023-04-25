@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>MGW</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.301941803   0 0 0 0 0.296602588   0 0 0 0 0.296602588  0 0 0 0.177638767 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="MGW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="椭圆形备份-7">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <circle stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" fill="SeaGreen" fill-rule="evenodd" cx="12" cy="12" r="11.5"></circle>
+        </g>
+        <path d="M17.3770492,6 L20,8.00966184 L17.3770492,10.0193237 L17.377,8.512 L15.537,8.512 L14.8,9.394 L15.8490018,10 L15.8490018,14.4444444 L15.303,14.759 L15.5409836,15.0434783 L17.377,15.043 L17.3770492,13.5362319 L20,15.5458937 L17.3770492,17.5555556 L17.377,16.048 L15.0163934,16.0483092 L15.016,16.047 L14.384,15.29 L12,16.6666667 L9.792,15.392 L9.245,16.047 L9.24590164,16.0483092 L6.62295082,16.0483092 L6.62295082,17.5555556 L4,15.5458937 L6.62295082,13.5362319 L6.62295082,15.0434783 L8.72131148,15.0434783 L8.873,14.861 L8.15099821,14.4444444 L8.15099821,10 L9.376,9.292 L8.724,8.512 L6.62295082,8.51207729 L6.62295082,10.0193237 L4,8.00966184 L6.62295082,6 L6.62295082,7.50724638 L9.24590164,7.50724638 L10.294,8.762 L12,7.77777778 L13.882,8.864 L15.0163934,7.50724638 L17.377,7.507 L17.3770492,6 Z" id="形状结合" fill="#FFFFFF"></path>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+export default {
+  SETTING_GIS_OPERATION: 'GIS操作',
+  SETTING_SELECTION_TOLERANCE: '容限设置(像素)',
+  SETTING_BINDING_TOLERANCE: '绑定容限(米)',
+  SETTING_UNDO_REDO: '堆栈大小(1-20)',
+  SETTING_SELECTION_TYPE: '类型选择',
+  SETTING_INTERSECTION: '相交',
+  SETTING_CONTAINS: '包含',
+  SETTING_BINDING: '绑定设置',
+  SETTING_AUTO_BIND: '是否绘制完线段尝试自动绑定',
+  SETTING_SAME_LAYER: '是否自动绑定多个相同图层的点',
+  SETTING_MULTIPLE_LAYER: '是否自动绑定不同图层的点',
+  SETTING_LINE_RES_TYPE: '线资源类型',
+  SETTING_SEQ: 'SEQ',
+  SETTING_POINT_RES_TYPE: '点资源类型',
+};

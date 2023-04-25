@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>IDU</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.301941803   0 0 0 0 0.296602588   0 0 0 0 0.296602588  0 0 0 0.177638767 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="IDU" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="椭圆形备份-7">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <circle stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" fill="rgb(255,0,255)" fill-rule="evenodd" cx="12" cy="12" r="11.5"></circle>
+        </g>
+        <path d="M12,9 C13.7199238,9 15.135606,10.3026131 15.3143088,11.9751016 L17,10.4583333 L16.9996667,11.7083333 L19.9166667,11.7083333 L19.9166667,10.4583333 L22,12.3333333 L19.9166667,14.2083333 L19.9166667,12.9583333 L16.9996667,12.9583333 L17,14.2083333 L15.3143088,12.6915651 C15.135606,14.3640535 13.7199238,15.6666667 12,15.6666667 C10.2800762,15.6666667 8.86439399,14.3640535 8.68569124,12.6915651 L7,14.2083333 L7,12.9583333 L4.083,12.9583333 L4.08333333,14.2083333 L2,12.3333333 L4.08333333,10.4583333 L4.083,11.7083333 L7,11.7083333 L7,10.4583333 L8.68569124,11.9751016 C8.86439399,10.3026131 10.2800762,9 12,9 Z M12,10.25 C10.8494068,10.25 9.91666667,11.1827401 9.91666667,12.3333333 C9.91666667,13.4839266 10.8494068,14.4166667 12,14.4166667 C13.1505932,14.4166667 14.0833333,13.4839266 14.0833333,12.3333333 C14.0833333,11.1827401 13.1505932,10.25 12,10.25 Z" id="形状结合" fill="#FFFFFF"></path>
+    </g>
+</svg>

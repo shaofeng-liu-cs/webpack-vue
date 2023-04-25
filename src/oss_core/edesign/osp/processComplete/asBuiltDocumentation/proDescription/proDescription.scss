@@ -1,0 +1,67 @@
+.pro-desc-box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	.desc-item-content{
+		display: flex;
+		width: 100%;
+		.right-pro-it{
+			flex:1;
+			display: flex;
+			flex-wrap: wrap;
+			padding-left: 30px;
+			.item-info{
+				margin-left: 50px;
+				margin-bottom: 20px;
+				min-width: 155px;
+				
+				.info-it-val{
+					margin-top: 8px;
+				}
+			}
+		}
+		.left-pro-img{
+			width: 150px;
+			margin-left: 10px;
+		}
+	}
+
+	.jindu-table{
+		width: 100%;
+		overflow: hidden;
+		padding:0 10px;
+	}
+	.color-desc{
+		display: flex;
+		align-items: center;
+		.color-it{
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			border-radius: 2px;
+			margin-right: 3px;
+		}
+		.color-text{
+			margin-right: 20px;
+			color:var(--theme-text-main-color);
+		}
+	}
+
+	.pro-des-card-box{
+		padding:0 20px;
+		
+		.card-body-box {
+			margin-top: 15px;
+			padding:0 10px;
+			display: flex;
+			flex-wrap: wrap;
+			.info-item {
+				min-width: 200px !important;
+			}
+			.info-it-val {
+				margin-top: 8px;
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+.attrCopy>.col-md-6>.cs-block>.title{
+    height: 40px;
+}
+.attrCopy>.col-md-6>.cs-block>.control{
+    height: 40px;
+}
+/* .attrCopy>.col-md-6>.cs-block>#attrMap{
+    height: calc(100% - 80px)!important;
+} */
+.attrCopy>.col-md-4>#tabSourceTypeAttr>.title{
+    height: 40px;
+}
+.attrCopy>.col-md-4>#tabToTypeAttr>.title{
+    height: 40px;
+}
+.attrCopy>.col-md-4>#tabSourceTypeAttr>#gridSourceTypeAttr{
+    height: calc(100% - 40px);
+}
+.attrCopy>.col-md-4>#tabSourceTypeAttr>#gridToTypeAttr{
+    height: calc(100% - 40px);
+}
+.attrCopy>.col-md-2>.cs-block>.title .btn{
+    background-color: #47e;
+    color: #ffffff;
+}
+.attrCopy>.col-md-2>.cs-block>.search-group .btn{
+    background-color: #47e;
+    color: #ffffff;
+    border-radius: 0;
+}
+.attrCopy>.col-md-6>.cs-block>.control .btn{
+    background-color: #47e;
+    color: #ffffff;
+}
+.attrCopy>.col-md-6>.cs-block,
+.attrCopy>.col-md-6>.cs-block>.ui-jqgrid,
+.attrCopy>.col-md-6>.cs-block>.ui-jqgrid>.ui-jqgrid-view,
+.attrCopy>.col-md-6>.cs-block>.ui-jqgrid>.ui-jqgrid-view>.slimScrollDiv,
+.attrCopy>.col-md-6>.cs-block>.ui-jqgrid>.ui-jqgrid-view>.slimScrollDiv>.ui-jqgrid-bdiv{
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+}
+.attrCopy>.col-md-4>.cs-block,
+.attrCopy>.col-md-4>.cs-block>.ui-jqgrid,
+.attrCopy>.col-md-4>.cs-block>.ui-jqgrid>.ui-jqgrid-view,
+.attrCopy>.col-md-4>.cs-block>.ui-jqgrid>.ui-jqgrid-view>.slimScrollDiv,
+.attrCopy>.col-md-4>.cs-block>.ui-jqgrid>.ui-jqgrid-view>.slimScrollDiv>.ui-jqgrid-bdiv{
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+}

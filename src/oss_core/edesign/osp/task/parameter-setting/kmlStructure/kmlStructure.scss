@@ -1,0 +1,150 @@
+.param-set-child-container {
+    height: 100%;
+    .kml-title {
+      padding: 10px 5px;
+      font-size: 14px;
+    }
+    .kml-set-body {
+      height: 500px;
+      display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      padding-bottom: 10px;
+      .form-kml{
+        height: 100%;
+        .left-content{
+          height: calc(100% - 50px);
+          overflow: auto;
+      }
+      }
+      .filter {
+        height: calc(100% - 80px);
+        width: 100%;
+        background-color: #ddd;
+        position: absolute;
+        top: 80px;
+        opacity: 0.14;
+        z-index: 99;
+        display: block;
+      }
+    }
+    .param-set-footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
+  .form-kml {
+    position: column;
+  }
+  .required-label:before {
+    content: '*';
+    color: #fb6e52;
+    vertical-align: middle;
+    margin-right: 3px;
+    line-height: 1;
+  }
+  .top {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .radi {
+    margin-right: 5px !important;
+  }
+  
+  .bottom {
+    height: 40px;
+    margin-left: 4px;
+  }
+  
+  .left-tree {
+    border: 1px solid #ddd;
+    height: 100%;
+    width: 25%;
+    overflow: auto;
+  }
+  .right {
+    border: 1px solid #ddd;
+    height: 100%;
+    width: 75%;
+  }
+  .mid {
+    width: 10px;
+  }
+  
+  .main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .left-pro,
+  .right-pre {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0px;
+    height: calc(100% - 10px);
+    margin: 5px 0;
+  }
+  
+  .left-head,
+  .right-head {
+    height: 50px;
+    background-color: #f4f6f9b8;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  
+  .mid-button {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mid-top,
+  .mid-bottom {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    color: #ddd;
+    position: relative;
+  }
+  
+  .mid-top {
+    margin-bottom: 20px;
+  }
+  
+  .mid-top:hover {
+    border: 1px solid #4477ee;
+  }
+  .mid-bottom {
+    background-color: #ffff;
+  }
+  
+  .mid-bottom:hover {
+    background-color: #3b6ade;
+  }
+  
+  .content {
+    height: 30px;
+    display: flex;
+  
+    align-items: center;
+  }
+  .content:hover {
+    background-color: #ddd;
+  }
+  

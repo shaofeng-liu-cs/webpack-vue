@@ -1,0 +1,10 @@
+/deep/ .ztree li a {
+    width: calc(100% - 40px);
+    > span:nth-last-child(1) {
+        width: calc(100% - 19px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        vertical-align: bottom;
+    } 
+}

@@ -1,0 +1,106 @@
+.left, .right {
+    padding:10px 5px;
+}
+
+.buildType {
+    height: 40px;
+}
+
+.inputLabel {
+    text-align: right;
+    padding-top: 4px;
+}
+
+h5 {
+    margin-top: 5px;
+    color: #4477ee;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-top: 4px;
+    height: 35px;
+}
+
+.required-label:before {
+    content: '*';
+    color: #fb6e52;
+    vertical-align: middle;
+    margin-right: 3px;
+    line-height: 1;
+}
+
+.structure {
+    height: 280px;
+    border: solid 1px #d7d7d7;
+}
+.structure-image {
+    height: 280px;
+    border: solid 1px #d7d7d7;
+    background-image: url('./landedHouse.jpg');
+    background-size: 300px 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tree-class{
+    overflow: auto;
+    height: 247px;
+}
+
+// .right /deep/ .ico_docu {
+//     margin-left:8px;
+//     margin-right: 4px;
+//     margin-bottom: -3px;
+// }
+.right  /deep/ ul {
+    padding-left: 7px !important;
+}
+
+.right  /deep/ li.level1 {
+    margin-left: 10px;
+}
+.right  /deep/ li.level2 {
+    margin-left: 10px;
+}
+
+.right  /deep/ span.level1 {
+    margin-left: 10px;
+}
+
+.right /deep/ .ztree li .button {
+    margin-right: 2px;
+}
+
+.structure-btn {
+    border-bottom: solid 1px #d7d7d7;
+    
+}
+
+.top-btn {
+    min-width: 30px !important;
+    padding: 3px 0;
+}
+
+
+// .tree-class  /deep/ div#rMenu {
+//     position:absolute; 
+//     visibility:hidden; 
+//     top:0; 
+//     background-color: #555;
+//     text-align: left;
+//     padding: 2px;
+// }
+// .tree-class  /deep/ div#rMenu ul {
+//     margin: 0;
+//     padding: 0;
+// }
+// .tree-class  /deep/ div#rMenu ul li{
+//     margin: 1px 0;
+//     padding: 0 5px;
+//     cursor: pointer;
+//     list-style: none outside none;
+//     background-color: #DFDFDF;
+// }

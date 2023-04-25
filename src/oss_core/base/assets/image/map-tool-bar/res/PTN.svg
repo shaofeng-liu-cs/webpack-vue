@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>PTN</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PTN" transform="translate(1.000000, 1.000000)">
+            <g id="bg/round-efefef" fill="#EFEFEF" stroke="#666666">
+                <rect id="Rectangle" x="0" y="0" width="64" height="64" rx="5"></rect>
+            </g>
+            <path d="M21.5,33 L21.5,36 L33,36 L33.0010101,36.0710334 C36.3928118,36.5566976 39,39.4738781 39,43 C39,44.9229915 38.2245881,46.6648758 36.9693786,47.9300386 L43.5132019,47.9288344 L43.5142019,44.9298344 L47.9586463,48.9298344 L43.5142019,52.9298344 L43.5132019,49.9288344 L32.9960004,49.9296821 C32.6706714,49.976025 32.3381355,50 32,50 C28.1340068,50 25,46.8659932 25,43 C25,41.04099 25.8047316,39.2699351 27.1016565,37.9993737 L21.5,38 L21.5,41 L16.5,37 L21.5,33 Z M32,38 C29.2385763,38 27,40.2385763 27,43 C27,45.4752676 28.7986643,47.5304347 31.1602846,47.929793 L32.8407106,47.9296246 C35.201841,47.5298574 37,45.47492 37,43 C37,40.2385763 34.7614237,38 32,38 Z" id="形状结合" fill="#333333"></path>
+            <text font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="14" font-weight="400" fill="#4A4A4A">
+                <tspan x="18.626" y="21">PTN</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

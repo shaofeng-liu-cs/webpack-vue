@@ -1,0 +1,12 @@
+.quick-input-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  > div {
+    margin-bottom: 10px;
+    &:nth-last-child(1) {
+      margin-bottom: 0px;
+    }
+  }
+}

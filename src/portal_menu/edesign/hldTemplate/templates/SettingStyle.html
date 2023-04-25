@@ -1,0 +1,216 @@
+<div class="modal-header">
+    <h4 class="modal-title">{{HLD_SETTING_STYLE_NAME}}</h4>
+</div>
+<div class="modal-body">
+    <form id="formSettingStyle" style="height:100%;">
+        <div class="ui-tabs hld-setting-styel-tabs">
+            <ul class="ui-tabs-nav">
+                <li class="tab-item tab-item-0" title={{HLD_SETTING_STYLE_ICON}}>
+                    <a>{{HLD_SETTING_STYLE_ICON}}</a>
+                </li>
+                <li class="tab-item tab-item-1" title={{HLD_SETTING_STYLE_PRIMARY_LABEL}}>
+                    <a>{{HLD_SETTING_STYLE_PRIMARY_LABEL}}</a>
+                </li>
+
+                <li class=" tab-item tab-item-2" title={{HLD_SETTING_STYLE_OTHERS}}>
+                    <a>{{HLD_SETTING_STYLE_OTHERS}}</a>
+                </li>
+            </ul>
+
+            <div id="style_icon" class="ui-tabs-panel setting-style-panel">
+                <div class="style_symbol_box">
+                    <span class="symbol_left_box">
+                        <div class="setting_style_head1">{{HLD_SETTING_STYLE_AVAILABLE_SYMBOLS}}</div>
+                        <div class="symbol_list_box">
+
+                        </div>
+                    </span>
+                    <span class="symbol_right_box">
+                        <div class="setting_style_head1">{{HLD_SETTING_STYLE_PREVIEW}}</div>
+                        <div class="symbol_view_box"></div>
+                        <div id="setting_style_img_size">
+                            <div class="setting_style_head1">{{HLD_SETTING_STYLE_OPTIONS}}</div>
+                            <div class="setting_modal_form_item">
+                                <span class="modal_form_label">{{HLD_SETTING_STYLE_SYMBOL_SIZE}}</span>
+                                <input id="iconImgSizeInput" min="10" max="50" name="size" type="number"
+                                    class="form-control modal_form_control" />
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <div id="style_label" class="ui-tabs-panel setting-style-panel">
+                <div class="style_label_show_box">
+                    <div class="show_box_title">{{HLD_SETTING_STYLE_PREVIEW}}</div>
+                    <span class="show_box_border">
+                        <img class="show_box_img_content"></img>
+                        <span class="show_box_line"></span>
+                        <span class="show_box_text">Default Text</span>
+                    </span>
+                </div>
+                <div class="style_label_setting_box">
+                    <div class="m-b" id="style_setting_gon">
+                        <div class="setting_style_head1">{{HLD_SETTING_STYLE_MIAN_FILL_STYLE}}</div>
+                        <div class="flex_center_align p-l-sm m-t">
+                            <span class="m-r">
+                                <div class="setting_modal_form_item" style="width:200px;">
+                                    <span class="modal_form_label">{{HLD_SETTING_STYLE_MIAN_FILL_COLOR}}</span>
+                                    <input name="fillColor" type="color" class="form-control">
+                                </div>
+                            </span>
+                            <span>
+                                <div class="setting_modal_form_item" style="width:200px;">
+                                    <span class="modal_form_label">{{HLD_SETTING_STYLE_MIAN_FILL_TRANSPARENCY}}</span>
+                                    <input name="transparency" type="number" max="100" min="0"
+                                        class="form-control modal_form_control" />
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="m-t" id="style_setting_line">
+                        <div class="setting_style_head1">{{HLD_SETTING_STYLE_LINE_STYLE}}</div>
+                        <div class="flex_center_align p-l-sm m-t" style="flex-wrap:wrap;width:500px;">
+                            <span class="m-r">
+                                <div class="setting_modal_form_item" style="width:200px;">
+                                    <span class="modal_form_label"
+                                        style="width:68px;min-width: 68px;">{{HLD_SETTING_STYLE_LINE_STYLE_COLOR}}</span>
+                                    <input name="lineColor" type="color" class="form-control">
+                                </div>
+                            </span>
+                            <span>
+                                <div class="setting_modal_form_item" style="width:200px;">
+                                    <span class="modal_form_label"
+                                        style="width:68px;min-width: 68px;">{{HLD_SETTING_STYLE_LINE_STYLE_WIDTH}}</span>
+                                    <input name="lineWidth" type="number" max="10" min="1"
+                                        class="form-control modal_form_control" />
+                                </div>
+                            </span>
+                            <br />
+                            <span style="margin-top:10px;">
+                                <div class="setting_modal_form_item" style="width:200px;">
+                                    <span class="modal_form_label"
+                                        style="width:68px;min-width: 68px;">{{HLD_SETTING_STYLE_LINE_STYLE_TYPE}}
+                                    </span>
+                                    <select name="lineStyle" class="form-control">
+                                        <option value="solid">solid</option>
+                                        <option value="dash">dash</option>
+                                        <option value="dot">dot</option>
+                                    </select>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="setting_style_head1">{{HLD_SETTING_STYLE_TEXT_STRING}}</div>
+                    <div class="setting_modal_form_item p-l-sm m-t" style="width:200px;">
+                        <span class="modal_form_label">{{HLD_SETTING_STYLE_Field}}</span>
+                        <select name="labelField" class="form-control" id="selectAttrToText">
+                            <option value="">{{HLD_SETTING_STYLE_SELECT_LABEL_WU}}</option>
+
+                        </select>
+                    </div>
+                    <div class="setting_style_head1 m-t">{{HLD_SETTING_STYLE_TEXT_OFFSET}}</div>
+                    <div class="flex_center_align p-l-sm m-t">
+                        <span class="m-r">
+                            <div class="setting_modal_form_item" style="width:200px;">
+                                <span class="modal_form_label">{{HLD_SETTING_STYLE_TEXT_OFFSET_X}}</span>
+                                <input name="fontXOff" max="30" min="-30" type="number" id="styleTextOffSetX"
+                                    class="form-control modal_form_control" />
+                            </div>
+                        </span>
+                        <span>
+                            <div class="setting_modal_form_item" style="width:200px;">
+                                <span class="modal_form_label">{{HLD_SETTING_STYLE_TEXT_OFFSET_Y}}</span>
+                                <input name="fontYOff" max="30" min="-30" type="number" id="styleTextOffSetY"
+                                    class="form-control modal_form_control" />
+                            </div>
+                        </span>
+                    </div>
+                    <div class="setting_style_head1 m-t">{{HLD_SETTING_STYLE_TEXT_STYLE}}</div>
+                    <div class="style_label_textStyle_box p-l-sm m-t" style="flex-wrap:wrap;">
+                        <span class="style_label_textStyle_item m-r">
+                            <div class="setting_modal_form_item" style="width:200px;">
+                                <span class="modal_form_label">{{HLD_SETTING_STYLE_TEXT_FONT_FAMILY}}</span>
+                                <select name="fontFamiliy" class="form-control" id="selectStyleFontFamiliy">
+                                </select>
+                            </div>
+                        </span>
+                        <span class="style_label_textStyle_item m-r">
+                            <div class="setting_modal_form_item" style="width:150px;">
+                                <span class="modal_form_label">{{HLD_SETTING_STYLE_TEXT_FONT_Size}}</span>
+                                <input name="fontSize" type="number" max="30" min="12"
+                                    class="form-control modal_form_control" />
+                                <span class="item_after_text">(px)</span>
+                            </div>
+                        </span>
+                        <span class="style_label_textStyle_item m-r">
+                            <div class="setting_modal_form_item" style="width:150px;">
+                                <span class="modal_form_label">{{HLD_SETTING_STYLE_TEXT_FONT_COLOR}}</span>
+                                <input name="fontColor" type="color" class="form-control">
+                            </div>
+                        </span>
+                        <span class="style_label_textStyle_item">
+                            <div class="setting_modal_form_item" style="width:180px;">
+                                <span class="modal_form_label">{{HLD_SETTING_STYLE_TEXT_FONT_STYLE}}</span>
+                                <span class="flex_center_align m-r" style="width:80px;">
+                                    <input name="fontWeight" type="checkbox" class="cek" id="styleLabelTextBold" />
+                                    <label for="styleLabelTextBold"
+                                        class="item_after_text item_text_label">{{HLD_SETTING_STYLE_BOLD}}</label>
+                                </span>
+                                <span class="flex_center_align" style="width:80px;">
+                                    <input name="fontStyle" type="checkbox" class="cek" id="styleLabelTextItaltc" />
+                                    <label for="styleLabelTextItaltc"
+                                        class="item_after_text item_text_label">{{HLD_SETTING_STYLE_ITALIC}}</label>
+                                </span>
+                            </div>
+                        </span>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <div id="style_others" class="ui-tabs-panel setting-style-panel">
+                <div class="setting_style_head1">{{HLD_SETTING_STYLE_OTHERS_VISIBLE_RANGE}}</div>
+                <div class="setting_modal_form_item p-l-sm m-t" style="width:200px;">
+                    <span class="flex_center_align">
+                        <input name="visibleRange" id="visibleRange_scales" type="radio" value="" class="cek" />
+                        <label for="visibleRange_scales"
+                            class="item_after_text item_text_label">{{HLD_SETTING_STYLE_OTHERS_VISIBLE_RANGE_SCALES}}</label>
+                    </span>
+                </div>
+                <div class="setting_modal_form_item p-l-sm m-t" style="width:200px;">
+                    <span class="flex_center_align">
+                        <input name="visibleRange" id="visibleRange_zoom" type="radio" value="zoom" class="cek" />
+                        <label for="visibleRange_zoom"
+                            class="item_after_text item_text_label">{{HLD_SETTING_STYLE_OTHERS_VISIBLE_RANGE_ZOOMED}}</label>
+                    </span>
+                </div>
+                <div class="setting_modal_form_item p-l-lg m-t" style="width:300px;">
+                    <span class="modal_form_label">{{HLD_SETTING_STYLE_OTHERS_VISIBLE_RANGE_ZOOMED_MIN}} : </span>
+                    <input name="minVisibleScale" type="number" class="form-control modal_form_control">
+                    </select>
+                </div>
+                <div class="setting_modal_form_item p-l-lg m-t" style="width:300px;">
+                    <span class="modal_form_label">{{HLD_SETTING_STYLE_OTHERS_VISIBLE_RANGE_ZOOMED_MAX}} : </span>
+                    <input name="maxVisibleScale" type="number" class="form-control modal_form_control">
+                    </select>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <div class="col-md-12 text-right">
+        <button type="button" class="btn btn_minwidth btn-primary " id="settingStyleModalOk" title={{OPB_OK}}>
+            {{OPB_OK}}
+        </button>
+        <button type="button" class="btn btn_minwidth btn-default " id="settingStyleModalCancel" title={{OPB_CANCEL}}>
+            {{OPB_CANCEL}}
+        </button>
+    </div>
+</div>

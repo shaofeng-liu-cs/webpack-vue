@@ -1,0 +1,21 @@
+div.map-tools {
+    position: absolute;
+    left: 35%;
+    top: 15px;
+    z-index: 3;
+    width: auto;
+    min-width: 25%;
+    display: flex;
+    transition: $transition;
+    /deep/ .map-icon {
+        width: 50px;
+        height: 36px;
+    }
+}
+div.active /deep/ .map-icon {
+    background: #4477ee;
+    font-size: 18px;
+}
+.map-tools.right {
+    right: 407px;
+}

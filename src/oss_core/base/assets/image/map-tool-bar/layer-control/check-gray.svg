@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>check-gray</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1317.000000, -278.000000)" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(1317.000000, 252.000000)">
+                <g id="check-gray" transform="translate(0.000000, 26.000000)">
+                    <path d="M0,6.5 C0,10.0898509 2.91014913,13 6.5,13 C10.0898509,13 13,10.0898509 13,6.5 C13,2.91014913 10.0898509,0 6.5,0 C2.91014913,0 0,2.91014913 0,6.5 Z" id="Path" fill="#C7C7C7"></path>
+                    <polygon id="Path" fill="#FFFFFF" points="10.2792857 4.98642857 9.295 3.99285715 5.68285715 7.61428572 3.71428572 5.63642857 2.72071428 6.62071428 4.69857143 8.59857143 5.68285715 9.58285715 10.2792857 4.98642857"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

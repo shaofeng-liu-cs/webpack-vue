@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Air Wire</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Air-Wire" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g id="round-bg" opacity="0" fill="#FFFFFF" stroke="#666666">
+                <rect id="Rectangle" x="0" y="0" width="64" height="64" rx="5"></rect>
+            </g>
+            <text font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="7.633" y="21">Air Wire</tspan>
+            </text>
+            <path d="M43,38 L43,39.4666667 L40.066,39.466 L40.0666667,42.4 L38.6,42.4 L38.6,39.466 L35.666,39.466 L35.6666667,42.4 L34.2,42.4 L34.2,39.466 L31.266,39.466 L31.2666667,42.4 L29.8,42.4 L29.8,39.466 L26.866,39.466 L26.8666667,42.4 L25.4,42.4 L25.4,39.466 L22.466,39.466 L22.4666667,42.4 L21,42.4 L21,38 L43,38 Z" fill="#333333"></path>
+        </g>
+    </g>
+</svg>

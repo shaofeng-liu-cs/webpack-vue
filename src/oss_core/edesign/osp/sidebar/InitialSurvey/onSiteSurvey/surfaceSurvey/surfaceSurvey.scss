@@ -1,0 +1,107 @@
+.cancelGeo-btn{
+    width: 100%;
+    margin-top: 10px;
+}
+.cancelGeo-btn:not([disabled]){
+    background-color: $theme-color;
+    color:#fff;
+}
+.new-survey-submit-box{
+    margin-top: 15px;
+    text-align: right;
+}
+
+.srufaceSurveyForm{
+    .has-error{
+        .form-control{
+            border-color: #E0E0E0 !important;
+        }
+        .form-control[data-inputstatus]{
+            border-color: #d9534f !important;
+        }
+    }
+}
+.surface-survey-container{
+    padding-bottom: 10px;
+}
+
+.survey-title.required:before{
+    content: "*";
+    color: #fb6e52;
+    vertical-align: middle;
+    margin-right: 3px;
+    line-height: 1;
+}
+.form-item-title{
+    margin: 10px 0;
+}
+.radio-group-box{
+    display: flex;
+    align-items: center;
+    
+    .m-l{
+        margin-left: 20px;
+    }
+    .radio-item-box{
+        display: flex;
+        align-items: center;
+        width: max-content;
+        label{
+            margin:0;
+            margin-left: 10px;
+            cursor: pointer;
+            font-weight: 400;
+        }
+    }
+}
+.selected-resource-show-box{
+    position: absolute;
+    left:-370px;
+    background: #fff;
+    border: 1px solid #f1efef;
+    box-shadow: 0 3px 4px 0px #ddd;
+    width: 350px;
+    height: max-content;
+    bottom:80px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    .show-modal-head{
+        height: 35px;
+        background-color: $theme-color;
+        color:#fff;
+        padding:0 10px;
+        line-height: 35px;
+        font-size: 15px;
+    }
+    .show-modal-content{
+        flex:1;
+        .item-tr-head{
+            background-color: #e6e6e6;
+            font-size: 14px;
+            color: #333;
+        }
+        .content-item-tr{
+            display: flex;
+            height: 35px;
+            align-items: center;
+            .item-td{
+                flex:1;
+            }
+            .td-check{
+                line-height: 0px;
+                width: 60px;
+                text-align: center;
+            }
+        }
+    }
+}
+.select-surface-type{
+    margin-top: 20px;
+    .survey-type{
+
+    }
+}
+#gridSurface{
+    margin-top: 20px;
+}

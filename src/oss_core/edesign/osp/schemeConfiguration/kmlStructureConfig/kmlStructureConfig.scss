@@ -1,0 +1,187 @@
+.param-set-child-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    flex-direction: column;
+    padding:0 20px;
+    .head-setting-box{
+      width: 100%;
+      height: 60px;
+      background-color: var(--theme-card-two-color);
+      border-radius: 5px;
+      padding:0 20px;
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+      /deep/ .el-radio-button{
+        margin-bottom: 0;
+      }
+      .name-input-form{
+        margin-left: 30px;
+        display: inline-flex;
+        align-items: center;
+        .theme-text-val{
+          margin-left: 10px;
+        }
+        .name-input {
+          margin-right: 10px;
+          width: max-content;
+          white-space: nowrap;
+
+          &:before {
+            content: '*';
+            color: var(--theme-red-color);
+            margin-right: 5px;
+          }
+        }
+
+        /deep/ .el-input {
+          width: 200px;
+        }
+      }
+    }
+    .bott-content-box{
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+      padding-bottom: 20px;
+    }
+    .param-set-footer{
+      padding-bottom: 20px;
+      text-align: right;
+    }
+    .left-tree-box {
+      width: 217px;
+      min-width: 217px;
+      padding: 15px 20px;
+      border-right: 1px solid var(--theme-edn-tabs-border);
+      position: relative;
+    }
+    .disabled:after{
+      content:"";
+      position: absolute;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--theme-card-three-color);
+      opacity: .5;
+      z-index: 2;
+      cursor: no-drop;
+    }
+     .kml-main-box {
+       flex: 1;
+       display: flex;
+       overflow: hidden;
+       position: relative;
+        margin-left: 20px;
+       .kml-tree-select-pro {
+         flex: 1;
+         border: 1px solid var(--theme-table-border-color);
+         display: flex;
+         flex-direction: column;
+  
+         .kml-select-head {
+           background-color: var(--theme-table-th-back-color);
+           font-weight: 600;
+           font-size: 13px;
+           text-align: center;
+           height: 26px;
+           line-height: 26px;
+         }
+  
+         .kml-select-content {
+           flex: 1;
+           padding: 20px;
+           overflow: hidden;
+         }
+  
+         /deep/ .el-checkbox-group {
+           .el-checkbox {
+             margin-right: 0;
+             display: block;
+             font-size: 12px;
+             margin-bottom: 15px;
+             font-weight: 400;
+           }
+         }
+  
+         /deep/ .ztree li a {
+           color: var(--theme-text-main-color);
+         }
+  
+         /deep/ .ztree {
+           li a.curSelectedNode:after {
+             background-color: var(--theme-btn-bg-color);
+             color: var(--theme-btn-text-color);
+           }
+  
+           li[disabled]>a,
+           li[disabled]>a>.tree-icon {
+             color: var(--theme-no-data-text-color);
+           }
+  
+           li a:hover span {
+             color: var(--theme-btn-bg-color);
+           }
+         }
+       }
+  
+       .mid-button {
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         justify-content: center;
+         padding: 0 20px;
+         position: relative;
+  
+         .disable-box {
+           position: absolute;
+           top: 0;
+           left: 0;
+           height: 100%;
+           width: 100%;
+         }
+  
+         .mid-top,
+         .mid-bottom {
+           height: 40px;
+           width: 40px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           cursor: pointer;
+           position: relative;
+  
+           &:hover {
+             opacity: .7;
+           }
+         }
+  
+         .mid-top {
+           border: 1px solid var(--theme-table-border-color);
+           color: var(--theme-table-border-color);
+           margin-bottom: 20px;
+         }
+  
+  
+         .mid-bottom {
+           background-color: var(--theme-btn-bg-color);
+           color: var(--theme-btn-text-color);
+         }
+       }
+     }
+    .filter {
+      height: calc(100% - 80px);
+      width: 100%;
+      background-color: #ddd;
+      position: absolute;
+      top: 80px;
+      opacity: 0.14;
+      z-index: 99;
+      display: block;
+    }
+  }
+  

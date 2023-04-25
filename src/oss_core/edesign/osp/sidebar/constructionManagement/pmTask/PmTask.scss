@@ -1,0 +1,27 @@
+.pm-content {
+    >.pm-info {
+        border: solid 1px #dfc9c9;
+        border-radius: 10px;
+        padding: 12px 2px;
+        margin: 8px 0;
+        > div {
+            height: 25px;
+            padding: 0 4px 0 6px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            color: #575966;
+            
+            > div {
+                height: 25px;
+                line-height: 25px;
+                &:nth-child(2) {
+                    font-weight: 700;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+            } 
+        }
+    }
+}

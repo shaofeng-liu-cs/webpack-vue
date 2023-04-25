@@ -1,0 +1,92 @@
+//整体样式
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0 0px 10px 0px;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  > div {
+    display: flex;
+    flex-flow: column;
+    > h3 {
+      color: #2d8cf0;
+      border-bottom: 1px solid #d7d7d7;
+      font-size: 14px;
+    }
+  }
+}
+
+//选中部分样式
+.select {
+  padding: 0 10px;
+  > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    > div {
+      width: 100%;
+      height: auto;
+      display: flex;
+      padding: 5px 0;
+      align-items: center;
+      > label {
+        margin: 0 0 0 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      &:nth-child(2) {
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+
+//视图类型
+.type {
+  height: 80px;
+  padding: 0 10px;
+  > div {
+    width: 100%;
+    height: 26px;
+    margin-top: 5px;
+  }
+}
+
+//route
+.route {
+  height: calc(100% - 200px);
+  align-items: center;
+  > h3 {
+    width: calc(100% - 20px);
+  }
+  > div {
+    width: 100%;
+    height: calc(100% - 43px);
+    display: flex;
+    flex-flow: column;
+    > div {
+      &:nth-child(2) {
+        height: auto;
+        margin: 10px 10px 0 0;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+.route-grid {
+  width: 100%;
+  height: calc(100% - 40px);
+  padding: 0 10px;
+}
+
+//construction
+.construction {
+  height: calc(100% - 160px);
+  padding: 0 10px;
+  .construction-body{
+    height: calc(100% - 43px);
+  }
+}

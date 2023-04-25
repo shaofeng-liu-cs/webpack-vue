@@ -1,0 +1,179 @@
+
+.cableLaying-class{
+    display: flex;
+    flex-flow: column;
+}
+.bule-title-noborder{
+    color: #4477ee;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.blue-div{
+    height: 24px;
+    color: #2d8cf0;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 14px;
+}
+
+.select-device{
+    text-align: center;
+}
+
+.zDevice{
+    margin-top:7px;
+    margin-bottom: 7px;
+}
+
+.route-class{
+    margin-bottom: 5px !important;
+}
+
+.remove-node{
+    text-align: left;
+    height: 13px;
+    margin-top: -20px;
+}
+
+.btn-mode{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.free-class{
+    width: calc(50% - 3px);
+}
+
+.fast-class{
+    width: calc(50% - 3px);
+}
+
+.route-from{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.result-route{
+    /* border:1px solid #d7d7d7; */
+    flex-grow: 1;
+    margin: 0 5px;
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+}
+
+.route-type{
+    padding: 0 !important;
+    margin-bottom: 8px;
+}
+
+.route-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/* .recommend-class{
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    
+    border-right: 1px solid #d7d7d7;
+}
+
+.short-class{
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    
+} */
+
+.type-label{
+    text-align: center;
+    padding-top: 4px;
+    width: 90px;
+    flex-shrink: 0;
+}
+/* .cableTypeLabel {
+    white-space: nowrap;
+} */
+.type-select{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.type-button{
+    width: 110px;
+    flex-shrink: 0;
+}
+
+.confirmRouteClass{
+    display: flex;
+}
+.confirmRouteClass>.type-button>.btn-default{
+    float: right;
+}
+
+.required-label:before{
+    content: "*";
+    color: #fb6e52;
+    vertical-align: middle;
+    margin-right: 3px;
+    line-height: 1;
+}
+
+
+
+.route-title{
+    height: 30px;
+    background-color: #dfeffd;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.15);
+
+}
+
+.toggleRoute{
+    text-align: center;
+    cursor: pointer;
+}
+
+.line-image{
+    height: 20px;
+}
+
+.line-class{
+    margin-bottom: 10px;
+}
+
+.line-class:hover {
+    background-color: #d7d7d7;
+}
+
+.line-png{
+    text-align: right;
+    margin-left: -30px;
+}
+
+.line-name{
+    padding-top:3px;
+}
+
+.up-down{
+    margin-top: -2px;
+}
+
+.add-route{
+    margin-top: -6px;
+}
+
+.node-length{
+    padding: 0 !important;
+}
+
+.showFlag-class {
+    padding-left: 25px;
+}
+
+

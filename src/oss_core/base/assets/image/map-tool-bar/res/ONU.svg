@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>ONU</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ONU" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OC" fill="#333333">
+            <text id="ONU" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal">
+                <tspan x="17.072" y="21">ONU</tspan>
+            </text>
+            <path d="M35,29 L35,30.999 L37,31 L37,32.999 L39,33 L39,34.999 L43,35 L43,51 L21,51 L21,35 L25,34.999 L25,33 L26.999,32.999 L27,31 L28.999,30.999 L29,29 L35,29 Z M39,37 L25,37 L25,47 L39,47 L39,37 Z M37,39 L37,43 L34.999,43 L35,45 L33,45 L32.999,43 L30.999,43 L31,45 L29,45 L28.999,43 L27,43 L27,39 L37,39 Z" id="形状结合备份-2"></path>
+        </g>
+    </g>
+</svg>

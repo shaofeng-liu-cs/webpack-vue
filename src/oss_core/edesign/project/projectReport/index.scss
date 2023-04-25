@@ -1,0 +1,178 @@
+.projectReportBox{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    padding:10px;
+    background-color: #EBECF1;
+    .progressBar{
+        position: relative;
+        width: 90%;
+        height: 14px;
+        background: #D5E9FF;
+        border-radius: 18px;
+        border: 1px solid #EAF0F7;
+        margin: 15px auto;
+        .progress_back{
+            background: #D5E9FF;
+            border-radius: 18px;
+            border: 1px solid #EAF0F7;
+        }
+        .progress_fill{
+            position: absolute;
+            height: 100%;
+            background-color: #4377EB;
+            border-radius: 18px;
+            left:0;
+            top:0;
+            .progress_num{
+                width: 34px;
+                height: 34px;
+                background: #4377EB;
+                box-shadow: 0px 0px 4px 0px #7CA5FF;
+                border: 2px solid #FFFFFF;
+                text-align: center;
+                line-height: 34px;
+                position: absolute;
+                top:-12px;
+                border-radius: 100%;
+                right: -17px;
+                .numLabel{
+                    color:#fff;
+                    display: inline-block;
+                    font-size: 12px;
+                    transform: scale(0.8);
+                }
+            }
+        }
+        
+    }
+    .headTitle{
+        font-weight: 500;
+        color: #333333;
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .topoImgListBox{
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        margin-top: 20px;
+        .imgItemBox{
+            cursor: pointer;
+            padding:0 10px;
+            display: flex;
+            align-items: center;
+            margin-bottom: -15px;
+            position: relative;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .imgName{
+                width: 140px;
+                min-width: 140px;
+                color:#6F6F6F;
+                font-size: 14px;
+                font-weight: 500;
+                &.active{
+                    color:#557fec;
+                }
+            }
+            .imgShow{
+                flex:1;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .showLabItem{
+        display: flex;
+        align-items: center;
+        padding:10px 20px;
+        .labText{
+            font-size: 12px;
+            font-weight: 500;
+            color: #2350C3;
+            padding-right: 10px;
+            flex:1;
+        }
+        .labVal{
+            width: 150px;
+            min-width: 150px;
+            height: 36px;
+            background: #D5E9FF;
+            border-radius: 18px;
+            border: 1px solid #EAF0F7;
+            text-align: center;
+            line-height: 36px;
+            color:#333;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    .fgx{
+        height: 1px;
+        border-top: 1px solid #EAF0F7;
+        margin:10px 0;
+    }
+    .leftChartBox{
+        min-width: 428px;
+        width: 428px;
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+        .leftItemBox{
+            background: #FFFFFF;
+            border-radius: 5px;
+            padding:10px;
+            overflow: auto;
+            .chartBox{
+                width:100%;
+                height: 200px;
+            }
+            &.flex1{
+                flex:1;
+            }
+        }
+        
+    }
+    .m-b{
+        margin-bottom: 15px;
+    }
+    .nopadding{
+        padding:0 !important;
+    }
+    .rightMabBox{
+        flex:1;
+        padding:10px;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        .mapContentBox{
+            flex:1;
+            background-color: #eee;
+        }
+        &.gray{
+            background-color: #EBECF1;
+        }
+        .chartListBox{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            .chartItemBox{
+                flex:1;
+                display: flex;
+                .chartBox{
+                    flex:1;
+                    background-color: #fff;
+                    padding-top: 10px;
+                    &:first-child{
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
