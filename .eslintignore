@@ -1,0 +1,6 @@
+node_modules/*
+# devconfig/*
+lib/*
+src/portal_menu/edesign/home/views/echarts.min.js
+# src/portal_menu/*
+# src/oss_core/base/assets/config/*

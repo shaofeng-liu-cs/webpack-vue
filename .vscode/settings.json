@@ -1,0 +1,13 @@
+{
+   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+"prettier.tabWidth": 4,
+"editor.insertSpaces": false,
+"editor.detectIndentation": true,
+"prettier.useEditorConfig": true,
+"launch": {
+  "configurations": [],
+  "compounds": []
+},
+}
